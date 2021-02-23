@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/curtains.min.js"></script>
+    <script src="js/flag.js"></script>
+    <title>Lady's formula</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <script>
+        $(document).ready(function(){
+            $(".comments-slider").owlCarousel({
+                loop: true,
+                items:1,
+                nav:true,
+                navText:[],
+                dots:true,
+                responsiveClass:false,
+                autoplay:false,
+                autoplayTimeout:1000,
+                autoplayHoverPause:true
+            });
+            if($(window).width() > 767) {
+                $(".other-products__slider").owlCarousel({
+                    loop: true,
+                    items:3,
+                    nav:true,
+                    navText:[],
+                    dots:false,
+                    responsiveClass:false
+                });
+
+            } else {
+                $(".other-products__slider").trigger('destroy.owl.carousel');
+            }
+            $('.burger-wrapper').on('click', function(){
+                $('#menu').toggleClass('active');
+            })
+
+            $(document).click(function(event) {
+                var $target = $(event.target);
+                if(!$target.closest('.header-nav__burger').length &&
+                        $('#menu').is(":visible")) {
+                    $('#menu').removeClass('active');
+                }
+            });
+            $('.question-button').on('click', function(e){
+                e.preventDefault()
+                $('.modal').toggleClass('open');
+                $('body').toggleClass('modalopen');
+                $('.modal-overlay').on('click', function(){
+                    $('.modal').removeClass('open');
+                    $('body').removeClass('modalopen');
+                })
+            })
+        });
+    </script>
+    <script>new WOW().init();</script>
+</head>
+<body>
+<div class="page_article product-page flower">
+
+    <div class="container">
+        <div class="header__nav">
+            <div class="header-nav__burger">
+                <div class="burger-wrapper">
+                    <span class="burger_bar"></span>
+                    <span class="burger_bar"></span>
+                    <span class="burger_bar"></span>
+                </div>
+
+
+                <div id="menu" class="menu">
+                    <a class="menu-link" href="">Продукты</a>
+                    <a class="menu-link" href="">Полезно знать</a>
+                    <a class="menu-link" href="">Вопрос - ответ</a>
+                    <a class="menu-link" href="">Где купить</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="product-page__title fadeInRight wow" data-wow-delay="0.5s">
+            Персональная Месячная Система™ <span class="subtitle">Усиленная Формула</span>
+        </div>
+        <ul class="product-item__list fadeIn wow" data-wow-delay="0.5s">
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Регулярно</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Безболезненно</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Комфортно</span></li>
+        </ul>
+        <img class="add_logo" src="img/+vegan.png">
+        <div class="product-image">
+            <img src="img/product/product_pms.png">
+
+            <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
+                <div class="canvas-wrap pulse wow" data-wow-delay="3s">
+                    <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
+                    <div class="plane">
+                        <img src="./img/flag.jpg" />
+                    </div>
+                    <p class="canvas-title">Made in the USA</p>
+                </div>
+                <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product__header">
+        <div class="container text-center">
+            <a class="details-button_discount " href="">купить со скидкой</a>
+
+        </div>
+    </div>
+    <img class="product-bg" src="img/product_bg.jpg">
+    <img class="product-bg md" src="img/product_bg-tablet.jpg">
+</div>
+<div class="page_article product-info flower">
+    <div class="container text-center">
+        <div class="block-title">
+            Действие компонентов
+        </div>
+        <a href="" class="details-button">инструкция</a>
+        <div class="info-item">
+            <div class="info-item-title">
+                <img class="info-item-icon" src="./img/product/prod-ico1.jpg"> Нормализует менструальный цикл
+            </div>
+            <ul class="info-item-list">
+                <li class="list-element">Витамины Д3 + В6 + магний </li>
+                <li class="list-element">Y-линолевая кислота</li>
+                <li class="list-element">экстракт витекса священного</li>
+            </ul>
+            <img class="info-item_bg" src="img/product/prod-info-bg1.jpg">
+        </div>
+        <div class="info-item">
+            <div class="info-item-title">
+                <img class="info-item-icon" src="./img/product/prod-ico2.jpg"> Нормализует менструальный цикл
+            </div>
+            <ul class="info-item-list">
+                <li class="list-element">витамин Е</li>
+                <li class="list-element">витамин А</li>
+                <li class="list-element">экстракт дикого ямса</li>
+            </ul>
+            <img class="info-item_bg" src="img/product/prod-info-bg2.jpg">
+        </div>
+        <div class="info-item">
+            <div class="info-item-title">
+                <img class="info-item-icon" src="./img/product/prod-ico3.jpg"> Нормализует менструальный цикл
+            </div>
+            <ul class="info-item-list">
+                <li class="list-element">витамин В12 + железо</li>
+                <li class="list-element">экстракты малины и готу-колы</li>
+                <li class="list-element">фолиевая кислота</li>
+            </ul>
+            <img class="info-item_bg" src="img/product/prod-info-bg3.jpg">
+        </div>
+    </div>
+</div>
+<div class="page_article product-page experts wow">
+    <div class="container flower">
+        <div class="container-title text-center">Мнение эксперта</div>
+        <div class="expert">
+            <div class="expert-video">
+                <iframe width="100%" height="350" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="expert-wrapper">
+                <div class="expert-name"><span class="text-uppercase">Радзинский</span> Виктор Евсеевич </div>
+                <div class="expert-info">
+                    Заслуженный деятель науки Российской Федерации, член-корреспондент РАН, доктор медицинских наук, профессор; заведующий кафедрой акушерства и гинекологии с курсом перинатологии Российского университета дружбы народов; вице-президент Российского общества акушеров-гинекологов
+                </div>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="rating-title text-center">
+                Клинические исследования
+            </div>
+            <div class="rating-info">
+                <img class="rating-icon" src="img/rate-icon.jpg">
+                <div class="rating-text">
+                    «Оценка эффективности
+                    и безопасности комплекса
+                    Lady's formula® Персональная
+                    месячная систематм Усиленная формула»
+                </div>
+                <div class="rating-sub-text">
+                    Первый МГМУ им. И.М. Сеченова, кафедра акушерства и гинекологии, руководитель - д.м.н., профессор. зав. кафедрой проф. Ищенко А.И., Москва, 2012
+                </div>
+                <div class="rating-opener"><img src="./img/treangle-opener.jpg"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page_article question">
+    <div class="container text-center">
+        <div class="question-title">Вопрос консультанту</div>
+        <div class="question-info">
+            Получить исчерпывающую информацию о составах, механизмах действия, показаниях,
+            противопоказаниях и способах применения биокомплексов вы можете, задав свой вопрос
+            медицинскому консультанту по телефону<br>
+            <b>горячей линии (495) 744-06-27</b> <br>
+            или заполнив он-лайн форму.
+        </div>
+        <a href="" class="question-button">задать вопрос</a>
+        <p class="notice">Обращаем Ваше внимание на то, что получить консультацию Вы <br>
+            можете по рабочим дням <br>
+            с 10:00 до 18:00 по московскому времени<br>
+            <b>Ни один вопрос не останется без внимания!</b></p>
+        <a class="faq-link" href="">Часто задаваемые вопросы</a>
+    </div>
+</div>
+<div class="page_article comments flower">
+    <div class="container text-center">
+        <div class="comment-title">Отзывы</div>
+        <div class="carousel-wrapper">
+            <div class="owl-carousel comments-slider">
+                <div class="comment-slide">
+                    <p class="comment-text">А у меня с циклом все в порядке,
+                        месячные точно по графику, но ужасно болезненные.
+                        Я даже пару раз сознание теряла, а тошнота, головные боли
+                        и ужасные боли в животе у меня были постоянно,
+                        до того как я Ледис формулу ПМС начала применять.
+                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
+                        я чувствую себя нормально...</p>
+                    <p class="comment-name">Ира, Тольятти</p>
+                </div>
+                <div class="comment-slide">
+                    <p class="comment-text">А у меня с циклом все в порядке,
+                        месячные точно по графику, но ужасно болезненные.
+                        Я даже пару раз сознание теряла, а тошнота, головные боли
+                        и ужасные боли в животе у меня были постоянно,
+                        до того как я Ледис формулу ПМС начала применять.
+                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
+                        я чувствую себя нормально...</p>
+                    <p class="comment-name">Ира, Тольятти</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="page_article other flower backgroundIn wow">
+    <div class="container text-center">
+        <div class="other-products__title text-center">
+            <span class="up-title">Другие препараты из линейки</span>
+            Женское здоровье
+        </div>
+        <div class="carousel-wrapper">
+            <div class="owl-carousel other-products__slider">
+                <div class="other-products-slide">
+                    <img src="img/product/other1.png">
+                    <div class="slide-title">Иммунитет Энергия Здоровье </div>
+
+                </div>
+                <div class="other-products-slide">
+                    <img src="img/product/other2.png">
+                    <div class="slide-title">Иммунитет, здоровье молочной железы</div>
+
+                </div>
+                <div class="other-products-slide">
+                    <img src="img/product/other1.png">
+                    <div class="slide-title">Иммунитет Энергия Здоровье </div>
+
+                </div>
+                <div class="other-products-slide">
+                    <img src="img/product/other3.png">
+                    <div class="slide-title">Женское здоровье Энергия Anti-Age  </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="img/product/other_bg_woman.png">
+    </div>
+</div>
+<div class="page_footer">
+    <div class="container">
+        <div class="footer-links">
+            <div class="footer-links__wrapper">
+                <div class="links-title">Женское здоровье</div>
+                <ul class="links-list">
+                    <li class="list-item"><a href="">Женщина 30 Плюс™ Усиленная Формула</a></li>
+                    <li class="list-item"><a href="">Женщина 40 Плюс™</a></li>
+                    <li class="list-item"><a href="">Больше чем поливитамины™</a></li>
+                    <li class="list-item"><a href="">Пренатал Оптима™</a></li>
+                    <li class="list-item"><a href="">Персональная Месячная Система™</a></li>
+                    <li class="list-item"><a href="">Усиленная Формула</a></li>
+                </ul>
+                <div class="links-title">Anti-Age</div>
+                <ul class="links-list">
+                    <li class="list-item"><a href="">Нестареющая Кожа™</a></li>
+                    <li class="list-item"><a href="">Менопауза™ Усиленная Формула</a></li>
+                    <li class="list-item"><a href="">Менопауза День-Ночь™</a></li>
+                    <li class="list-item"><a href="">Укрепление Костной Ткани™</a></li>
+                    <li class="list-item"><a href="">Для Волос™</a></li>
+                    <li class="list-item"><a href="">Женщина 40 Плюс™</a></li>
+                </ul>
+            </div>
+            <div class="footer-links__wrapper">
+                <div class="links-title">MеNOпауза</div>
+                <ul class="links-list">
+                    <li class="list-item"><a href="">Нестареющая Кожа™</a></li>
+                    <li class="list-item"><a href="">Менопауза™ Усиленная Формула</a></li>
+                    <li class="list-item"><a href="">Менопауза День-Ночь™</a></li>
+                    <li class="list-item"><a href="">Укрепление Костной Ткани™</a></li>
+                </ul>
+                <div class="links-title">Бьюти-шик</div>
+                <ul class="links-list">
+                    <li class="list-item"><a href="">Нестареющая Кожа™</a></li>
+                    <li class="list-item"><a href="">Для Волос™</a></li>
+                    <li class="list-item"><a href="">Для Волос, Кожи и Ногтей™ Усиленная Формула</a></li>
+                </ul>
+                <div class="links-title">STOP стресс</div>
+                <ul class="links-list">
+                    <li class="list-item"><a href="">Антистресс™ Усиленная Формула</a></li>
+                    <li class="list-item"><a href="">Энерготоник™</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="footer-stamp"> <img src="./img/25year-stamp.png"></div>
+            <div class="info-text">
+                Произведено в США в соответствии с международным стандартом качества фармацевтического производства и сертифицировано по стандарту  Евразийского соответствия (Eurasion Conformity)
+            </div>
+            <div class="footer-address">
+                АО «Фармамед»
+                123290, Шелепихинская наб., 8, к.1 <br>
+                8(495) 744-0618 <br>
+                <a href="pharmamed.ru">www.pharmamed.ru</a>
+
+                <a class="link-insta" href=""><img src="./img/insta_link.png"></a>
+            </div>
+
+        </div>
+        <div class="footer-warning"><img src="./img/warning.png"></div>
+    </div>
+    <div class="page_brands">
+        <div class="container">
+            <div class="brand-title">Другие бренды компании «Фармамед»</div>
+            <div class="brands-logos">
+                <a class="logo-item" href=""><img src="./img/brand1.png"></a>
+                <a class="logo-item" href=""><img src="./img/brand2.png"></a>
+                <a class="logo-item" href=""><img src="./img/brand3.png"></a>
+                <a class="logo-item" href=""><img src="./img/brand4.png"></a>
+                <a class="logo-item" href=""><img src="./img/brand5.png"></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal">
+
+    <div class="container modal-wrapper">
+        <div class="question-title text-center">Задать вопрос</div>
+        <form class="modal-form">
+            <label>
+                <input class="modal-input" type="text" placeholder="Ваше имя">
+            </label>
+            <label>
+                <input class="modal-input" type="text" placeholder="E-mail">
+            </label>
+            <label>
+                <textarea class="modal-input" placeholder="Вопрос"></textarea>
+            </label>
+            <div class="buttons-wrapper">
+                <div class="captcha"><img src="./img/capcha-image.png">  </div>
+                <button class="button" type="submit">отправить</button>
+            </div>
+        </form>
+    </div>
+    <div class="modal-overlay"></div>
+</div>
+</body>
+</html>
