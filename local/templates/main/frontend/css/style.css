@@ -733,7 +733,8 @@ h1 span {
 .category {
     min-height:1066px;
 }
-.product-page {
+.product-page__main {
+    background: url("../img/product_bg-new.png") no-repeat top center;
     min-height: 1079px;
 }
 .health {
@@ -899,18 +900,18 @@ h1 span {
 .expert-name,
 .expert-info,
 .expert-text {
-    width: calc(100% - 278px);
+    /*width: calc(100% - 278px);*/
     display: inline-block;
     vertical-align: top;
     padding-left: 40px;
 }
 .expert-wrapper {
-    width: calc(100% - 600px);
+    width: calc(100% - 300px);
     display: inline-block;
     min-height: 338px;
 }
 .rating-title {
-    font-size: 51px;
+    font-size: 48px;
     color: #000000;
     font-weight: bold;
     font-style: italic;
@@ -925,8 +926,8 @@ h1 span {
     line-height: 42px;
 }
 .expert-wrapper .expert-name .text-uppercase {
-    font-size: 46px;
-    display: block;
+    font-size: 30px;
+    /*display: block;*/
 }
 .rating-info {
     background: #fff;
@@ -935,13 +936,13 @@ h1 span {
     padding: 38px;
 }
 .rating-text {
-    width: calc(100% - 200px);
+    width: calc(100% - 160px);
     display: inline-block;
-    font-size: 29px;
+    font-size: 25px;
     padding-left: 41px;
     line-height: 30px;
     vertical-align: top;
-    font-weight: bold;
+    font-weight: 600;
     padding-top: 10px;
     color:#7c014a;
 }
@@ -980,7 +981,7 @@ h1 span {
     padding-bottom: 12px;
 }
 .expert-info {
-    font-size: 21px;
+    font-size: 24px;
     padding-right: 39px;
     font-style: italic;
     font-weight: bold;
@@ -1308,8 +1309,8 @@ max-width: 50%;
     display: inline-block;
 }
 .product__header {
-    background: url('../img/prod-header-gradient.png') no-repeat bottom;
-    background-size: 100%;
+    /*background: url('../img/prod-header-gradient.png') no-repeat bottom;
+    background-size: 100%;*/
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1401,6 +1402,7 @@ max-width: 50%;
     left: 0;
     background-image: url("../img/product/other-prod-bg.jpg");
     background-repeat: no-repeat;
+    background-position: bottom center;
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -1426,6 +1428,100 @@ max-width: 50%;
 }
 .other-products-slide {
     padding: 0 43px;
+}
+
+.section-efficiency{
+    background: url("../img/shadow-section.png") no-repeat bottom center;
+    padding-bottom: 45px;
+}
+.section-efficiency .expert-name,
+.section-efficiency .expert-text{
+    color: #000;
+}
+.section-efficiency .expert-info{
+    color: #7c014a;
+}
+.section-efficiency .expert-text:before{
+    content: url("../img/expert-quote-black.png");
+}
+.section-efficiency__subtitle{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.efficiency-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.efficiency-list-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.efficiency-list-item__inner{
+    margin: 0 auto;
+    text-align: center;
+}
+.efficiency-list-item__circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+    height: 180px;
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    border-radius: 100%;
+    border: 7px solid #ffffff;
+
+    background: linear-gradient(332deg, #ae9c79  5%, #e0d1b5 100%);
+    background-color: #b8a98d;
+    box-shadow: 6px 6px 13px 0px rgb(0 0 0 / 50%);
+}
+.efficiency-list-item:nth-child(even) .efficiency-list-item__circle{
+    background: linear-gradient(332deg, #810c58  5%, #d997c2 100%);
+    background-color: #810c58;
+}
+.efficiency-list-item__value{
+    font-size: 3rem;
+    color: #fff;
+}
+.efficiency-list-item__text{
+    max-width: 240px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.efficiency-lvl{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.efficiency-lvl-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+}
+.efficiency-lvl-item__img{
+    margin-bottom: 35px;
+}
+.efficiency-lvl-item__picture{
+    max-width: 100%;
+    height: auto;
+}
+.efficiency-lvl-item__text{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    text-align: center;
 }
 
 @media (max-width:1024px) {
