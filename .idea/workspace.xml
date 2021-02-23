@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="019dc101-bf3c-4889-9470-ee0a1e1a0d0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3_sm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3_sm.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613998354662</updated>
       <workItem from="1613998355837" duration="16596000" />
-      <workItem from="1614074465996" duration="14818000" />
+      <workItem from="1614074465996" duration="15611000" />
     </task>
     <servers />
   </component>

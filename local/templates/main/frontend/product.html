@@ -3,66 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Lady's formula</title>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
+
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/curtains.min.js"></script>
     <script src="js/flag.js"></script>
-    <title>Lady's formula</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-    <script>
-        $(document).ready(function(){
-            $(".comments-slider").owlCarousel({
-                loop: true,
-                items:1,
-                nav:true,
-                navText:[],
-                dots:true,
-                responsiveClass:false,
-                autoplay:false,
-                autoplayTimeout:1000,
-                autoplayHoverPause:true
-            });
-            if($(window).width() > 767) {
-                $(".other-products__slider").owlCarousel({
-                    loop: true,
-                    items:3,
-                    nav:true,
-                    navText:[],
-                    dots:false,
-                    responsiveClass:false
-                });
+    <script src="js/main.js"></script>
 
-            } else {
-                $(".other-products__slider").trigger('destroy.owl.carousel');
-            }
-            $('.burger-wrapper').on('click', function(){
-                $('#menu').toggleClass('active');
-            })
-
-            $(document).click(function(event) {
-                var $target = $(event.target);
-                if(!$target.closest('.header-nav__burger').length &&
-                        $('#menu').is(":visible")) {
-                    $('#menu').removeClass('active');
-                }
-            });
-            $('.question-button').on('click', function(e){
-                e.preventDefault()
-                $('.modal').toggleClass('open');
-                $('body').toggleClass('modalopen');
-                $('.modal-overlay').on('click', function(){
-                    $('.modal').removeClass('open');
-                    $('body').removeClass('modalopen');
-                })
-            })
-        });
-    </script>
-    <script>new WOW().init();</script>
 </head>
 <body>
 <div class="page_article product-page flower">
@@ -276,7 +231,7 @@
         <img src="img/product/other_bg_woman.png">
     </div>
 </div>
-<div class="page_footer">
+<div class="page_footer flower">
     <div class="container">
         <div class="footer-links">
             <div class="footer-links__wrapper">
@@ -358,12 +313,15 @@
         <form class="modal-form">
             <label>
                 <input class="modal-input" type="text" placeholder="Ваше имя">
+                <span class="input-required"></span>
             </label>
             <label>
                 <input class="modal-input" type="text" placeholder="E-mail">
+                <span class="input-required"></span>
             </label>
             <label>
                 <textarea class="modal-input" placeholder="Вопрос"></textarea>
+                <span class="input-required"></span>
             </label>
             <div class="buttons-wrapper">
                 <div class="captcha"><img src="./img/capcha-image.png">  </div>
