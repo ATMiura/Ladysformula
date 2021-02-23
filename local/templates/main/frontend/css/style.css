@@ -479,6 +479,10 @@ h1 span {
     background:#ab0367 url("../img/footer_bg.jpg") no-repeat top center;
     color:#fff;
 }
+.page_footer.flower:after{
+    bottom: initial;
+    top: -24px;
+}
 .footer-links {
     padding: 33px 34px 54px;
     background: url("../img/footer-link-line.png") no-repeat bottom center;
