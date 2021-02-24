@@ -116,7 +116,7 @@ body.modalopen {
 }*/
 h1 {
     font-size: 46px;
-    font-weight: 800;
+    font-weight: 400;
     font-style: italic;
     color: #fff;
     /*padding-top: 30px;*/
@@ -651,7 +651,7 @@ h1 span {
     font-weight: bold;
     display: flex;
 }
-.product-info .list-element {
+.product-info .list-element{
     font-weight: 300;
 }
 
