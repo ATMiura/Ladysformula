@@ -116,7 +116,7 @@ body.modalopen {
 }*/
 h1 {
     font-size: 46px;
-    font-weight: 800;
+    font-weight: 400;
     font-style: italic;
     color: #fff;
     /*padding-top: 30px;*/
@@ -650,6 +650,9 @@ h1 span {
     font-size: 20px;
     font-weight: bold;
     display: flex;
+}
+.product-info .list-element{
+    font-weight: 300;
 }
 
 
@@ -1401,18 +1404,27 @@ max-width: 50%;
 }
 .other {
     background-color: #d5cdba;
+    background-position: bottom center;
+    min-height: 1070px;
 }
 .other img {
     z-index: 1;
     margin-bottom: -7px;
 }
-.other:after {
-    content : "";
-    display: block;
+.other-bg{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("../img/product/other-prod-bg.jpg");
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.other .flowers-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
     background-repeat: no-repeat;
     background-position: bottom center;
     width: 100%;
