@@ -3,7 +3,147 @@
   <component name="ChangeListManager">
     <list default="true" id="019dc101-bf3c-4889-9470-ee0a1e1a0d0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/+vegan.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/+vegan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/25year-stamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/25year-stamp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/articleimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/articleimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/articleimg_tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/articleimg_tablet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/brand1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/brand1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/brand2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/brand2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/brand3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/brand3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/brand4.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/brand4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/brand5.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/brand5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/capcha-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/capcha-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_antiage_decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_antiage_decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_beauty_decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_beauty_decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg-768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg-768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg1-xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg1-xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-sm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-sm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-sm.jpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-sm.jpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3-xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg4-xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg4-xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5-768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5-768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5-xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5-xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6-768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6-768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6-xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6-xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_bg6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_content_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_content_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_health_decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_health_decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_manno_decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_manno_decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_stress_decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/catalog_stress_decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/efficiency-lvl-img-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote-xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote-xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert-quote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/expert3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/expert3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/experts-formula-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flag.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-bg-b.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-bg-b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-red_xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-red_xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-white_xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower-white_xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/flower_xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/flower_xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/footer-link-line.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/footer-link-line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg_xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg_xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg_xs2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/footer_bg_xs2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3_sm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl3_sm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girl5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girl5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/girlbaby-768.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/girlbaby-768.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/header_prod_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/header_prod_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_efficiency.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_efficiency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_qualilty.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_qualilty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_recommend.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_recommend.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_structure.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/icon_structure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/insta_link.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/insta_link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_big.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_sm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/li-decor_xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/logo_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/logo_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/logo_tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/logo_tablet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/madeinusa.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/madeinusa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/main_768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/main_768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/main_catalog_bg_xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/main_catalog_bg_xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/main_desctop1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/main_desctop1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/main_phone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/main_phone.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/menu_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/menu_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/modal-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/modal-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/nav-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/nav-next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/nav-prew.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/nav-prew.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/prod-header-gradient.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/prod-header-gradient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg-tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg-tablet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product-page-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other-prod-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other-prod-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other_bg_woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/other_bg_woman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico4.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico5.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico6.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-ico6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg5.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg6.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod-info-bg6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prod1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/product_bcp.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/product_bcp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/product_pms.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/product_pms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prop-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product/prop-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bcp-new.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bcp-new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg-new.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg-new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg-tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg-tablet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/product_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/rate-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/rate-icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-b.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-s.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/romb-s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/section-rec-shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/section-rec-shadow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow-section.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow-section.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow-xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow-xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/shadow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/star-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/star-header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/tips_bgs.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/tips_bgs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/treangle-opener.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/treangle-opener.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/usa_stamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/usa_stamp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/w-anti_age.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/w-anti_age.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/w-beauty.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/w-beauty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/w-manno.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/w-manno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/w-stress.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/w-stress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/w_health.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/w_health.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/img/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/img/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/ladysformula.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/product-BChP.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/product-BChP.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/main/frontend/product-PMS.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/frontend/product-PMS.html" afterDir="false" />
     </list>
@@ -48,7 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1613998354662</updated>
       <workItem from="1613998355837" duration="16596000" />
-      <workItem from="1614074465996" duration="24778000" />
+      <workItem from="1614074465996" duration="25035000" />
+      <workItem from="1614140215010" duration="33000" />
+      <workItem from="1614194991127" duration="7162000" />
     </task>
     <servers />
   </component>
