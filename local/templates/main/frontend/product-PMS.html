@@ -40,7 +40,12 @@
                 </div>
             </div>
             <div class="product-page__title fadeInRight wow" data-wow-delay="0.5s">
-                Персональная Месячная Система™ <span class="subtitle">Усиленная Формула</span>
+                <div class="product-page-title__icon">
+                    <img src="img/pms-poctogram.png" alt="">
+                </div>
+                <div class="product-page-title__text">
+                    Персональная Месячная Система™ <span class="subtitle">Усиленная Формула</span>
+                </div>
             </div>
         </div>
 
@@ -49,32 +54,43 @@
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Безболезненно</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Комфортно</span></li>
         </ul>
-        <!--<img class="add_logo" src="img/+vegan.png">-->
-        <div class="product-image">
-            <img src="img/product/product_pms.png">
-
-            <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
-                <div class="canvas-wrap pulse wow" data-wow-delay="3s">
-                    <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
-                    <div class="plane">
-                        <img src="./img/flag.jpg" />
-                    </div>
-                    <p class="canvas-title">Made in the USA</p>
-                </div>
-                <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
-            </div>
-        </div>
     </div>
 
     <div class="product__header">
-        <div class="container text-center">
-            <a class="details-button_discount " href="">купить со скидкой</a>
+        <div class="container">
+            <div class="product-image">
+                <img src="img/product/product_pms.png">
 
+                <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
+                    <div class="canvas-wrap pulse wow" data-wow-delay="3s">
+                        <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
+                        <div class="plane">
+                            <img src="/img/flag.jpg" />
+                        </div>
+                        <p class="canvas-title">Made in the USA</p>
+                    </div>
+                    <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
+                </div>
+            </div>
+            <a class="details-button_discount " href="">купить со скидкой</a>
         </div>
     </div>
     <div class="product-bg">
-        <img class="" src="img/product_bg-new.png">
-        <img class="md" src="img/product_bg-tablet.jpg">
+        <style>
+            .product-page__main{
+                background: url("img/pms-bg.png") no-repeat bottom center, url("img/pms-bg-flower.png") no-repeat center;
+            }
+            @media(max-width: 1199px){
+                .product-page__main{
+                    background: url("img/pms-tablet-bg.png") no-repeat bottom center, url("img/pms-tablet-bg-flower.png") no-repeat center;
+                }
+            }
+            @media(max-width: 767px){
+                .product-page__main{
+                    background: url("img/pms-mobile-bg.png") no-repeat bottom center, url("img/pms-mobile-bg-flower.png") no-repeat center;
+                }
+            }
+        </style>
     </div>
 </div>
 <div class="page_article product-info flower">
@@ -84,36 +100,59 @@
         </div>
         <a href="" class="details-button">инструкция</a>
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico1.jpg"> Нормализует менструальный цикл
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico1.jpg">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Нормализует менструальный цикл
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">Витамины Д3 + В6 + магний </li>
+                        <li class="list-element">Y-линолевая кислота</li>
+                        <li class="list-element">экстракт витекса священного</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">Витамины Д3 + В6 + магний </li>
-                <li class="list-element">Y-линолевая кислота</li>
-                <li class="list-element">экстракт витекса священного</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg1.jpg">
         </div>
+
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico2.jpg"> Нормализует менструальный цикл
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico2.jpg">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Облегчает симптомы ПМС
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">витамин Е</li>
+                        <li class="list-element">витамин А</li>
+                        <li class="list-element">экстракт дикого ямса</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">витамин Е</li>
-                <li class="list-element">витамин А</li>
-                <li class="list-element">экстракт дикого ямса</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg2.jpg">
         </div>
+
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico3.jpg"> Нормализует менструальный цикл
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico3.jpg">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Улучшает общее самочувствие в критические дни
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">витамин В12 + железо</li>
+                        <li class="list-element">экстракты малины и готу-колы</li>
+                        <li class="list-element">фолиевая кислота</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">витамин В12 + железо</li>
-                <li class="list-element">экстракты малины и готу-колы</li>
-                <li class="list-element">фолиевая кислота</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg3.jpg">
         </div>
     </div>
@@ -128,10 +167,11 @@
             <div class="expert-wrapper">
                 <div class="expert-name"><span class="text-uppercase">СЕРОВ </span> Владимир Николаевич </div>
                 <div class="expert-info">Академик РАН, РАМН, доктор медицинских наук, профессор, заслуженный деятель науки РФ, президент Российского общества акушеров-гинекологов</div>
-                <p class="expert-text">
+                <div class="expert-text">
                     <b>Lady’s formula Персональная Месячная Система Усиленная Формула </b>
                     содержит в своем составе фитоэстрогены, вещества растительного происхождения активно влияющие на патогенетические механизмы возникновения предменструального синдрома, дисменореи, альгодисменореи, которые по своей эффективности в ряде случаев конкурируют с рядом терапевтических препаратов, в первую очередь гормональных.
-                    Наличие значительного числа противопоказаний для длительного применения гормонотерапии и сложившееся в России негативное отношение к этим лекарственным средствам, открывают дополнительные возможности для альтернативной терапии больных с дис– и альгоменореей.                </p>
+                    Наличие значительного числа противопоказаний для длительного применения гормонотерапии и сложившееся в России негативное отношение к этим лекарственным средствам, открывают дополнительные возможности для альтернативной терапии больных с дис– и альгоменореей.
+                </div>
             </div>
         </div>
         <div class="rating">
@@ -155,7 +195,7 @@
         </div>
     </div>
 </div>
-<div class="section section-efficiency flower wow">
+<div class="product-page section section-efficiency flower wow">
     <div class="container">
         <div class="expert">
             <div class="expert-image">
@@ -164,7 +204,7 @@
             <div class="expert-wrapper">
                 <div class="expert-name"><span class="text-uppercase">ИЩЕНКО </span> Анатолий Иванович</div>
                 <div class="expert-info">Директор клиники акушерства и гинекологии им. В.Ф. Снегирева, д.м.н., профессор, заведующий кафедрой акушерства и гинекологии №1 ФППОВ Первого МГМУ им. И.М. Сеченова</div>
-                <p class="expert-text">Применение негормонального препарата <b>Lady’s Formula Персональная Месячная Система</b>, прежде всего, способствует нормализации гормонального баланса и, тем самым, устраняет  проявления предменструального синдрома, альго– и дисменорею, нормализует регулярность и продолжительность цикла, обеспечивая менструальный комфорт, что улучшает состояния пациенток и значительно повышает качество жизни. </p>
+                <div class="expert-text">Применение негормонального препарата <b>Lady’s Formula Персональная Месячная Система</b>, прежде всего, способствует нормализации гормонального баланса и, тем самым, устраняет  проявления предменструального синдрома, альго– и дисменорею, нормализует регулярность и продолжительность цикла, обеспечивая менструальный комфорт, что улучшает состояния пациенток и значительно повышает качество жизни. </div>
             </div>
         </div>
 
@@ -234,7 +274,7 @@
             можете по рабочим дням <br>
             с 10:00 до 18:00 по московскому времени<br>
             <b>Ни один вопрос не останется без внимания!</b></p>
-        <a class="faq-link" href="">Часто задаваемые вопросы</a>
+        <!--<a class="faq-link" href="">Часто задаваемые вопросы</a>-->
     </div>
 </div>
 <div class="page_article comments flower">
@@ -278,23 +318,19 @@
                 <div class="other-products-slide">
                     <img src="img/product/other1.png">
                     <div class="slide-title">Иммунитет Энергия Здоровье </div>
-
                 </div>
                 <div class="other-products-slide">
                     <img src="img/product/other2.png">
                     <div class="slide-title">Иммунитет, здоровье молочной железы</div>
-
-                </div>
-                <div class="other-products-slide">
-                    <img src="img/product/other1.png">
-                    <div class="slide-title">Иммунитет Энергия Здоровье </div>
-
                 </div>
                 <div class="other-products-slide">
                     <img src="img/product/other3.png">
                     <div class="slide-title">Женское здоровье Энергия Anti-Age  </div>
                 </div>
-
+                <div class="other-products-slide">
+                    <img src="img/product/other2.png">
+                    <div class="slide-title">Иммунитет, здоровье молочной железы</div>
+                </div>
             </div>
         </div>
         <img src="img/product/other_bg_woman.png">

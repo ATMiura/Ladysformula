@@ -13,19 +13,15 @@ $(document).ready(function (){
         autoplayTimeout:1000,
         autoplayHoverPause:true
     });
-    if($(window).width() > 767) {
-        $(".other-products__slider").owlCarousel({
-            loop: true,
-            items:3,
-            nav:true,
-            navText:[],
-            dots:false,
-            responsiveClass:false
-        });
 
-    } else {
-        $(".other-products__slider").trigger('destroy.owl.carousel');
-    }
+    $(".other-products__slider").owlCarousel({
+        loop: true,
+        items:3,
+        nav:true,
+        navText:[],
+        dots:false,
+        responsiveClass:false
+    });
 
     $(".owl-carousel").owlCarousel({
         loop: true,
@@ -75,3 +71,8 @@ $(document).click(function(event) {
         $('#menu').removeClass('active');
     }
 });
+
+$(document).on('click','.rating-opener', function (){
+    $('.section-efficiency').fadeToggle('fast');
+    //$(this).parents('.rating-info').find('.rating-sub-text').fadeToggle('fast');
+})

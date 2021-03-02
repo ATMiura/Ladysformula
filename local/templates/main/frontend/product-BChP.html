@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="product-page__title fadeInRight wow" data-wow-delay="0.5s">
-                Больше <span class="subtitle">чем поливитамины</span> ™
+                Больше <span class="subtitle">&nbsp; чем поливитамины</span> ™
             </div>
         </div>
 
@@ -49,31 +49,43 @@
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Энергия</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Женское здоровье</span></li>
         </ul>
-        <div class="product-image">
-            <img src="img/product/product_bcp.png">
-
-            <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
-                <div class="canvas-wrap pulse wow" data-wow-delay="3s">
-                    <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
-                    <div class="plane">
-                        <img src="./img/flag.jpg" />
-                    </div>
-                    <p class="canvas-title">Made in the USA</p>
-                </div>
-                <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
-            </div>
-        </div>
     </div>
 
     <div class="product__header">
-        <div class="container text-center">
-            <a class="details-button_discount " href="">купить со скидкой</a>
+        <div class="container">
+            <div class="product-image">
+                <img src="img/product/product_bcp.png">
 
+                <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
+                    <div class="canvas-wrap pulse wow" data-wow-delay="3s">
+                        <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
+                        <div class="plane">
+                            <img src="/img/flag.jpg" />
+                        </div>
+                        <p class="canvas-title">Made in the USA</p>
+                    </div>
+                    <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
+                </div>
+            </div>
+            <a class="details-button_discount " href="">купить со скидкой</a>
         </div>
     </div>
     <div class="product-bg">
-        <img class="" src="img/product_bcp-new.png">
-        <img class="md" src="img/product_bcp-tablet.jpg">
+        <style>
+            .product-page__main{
+                background: url("img/bcp-bg.png") no-repeat bottom center, url("img/bcp-bg-flower.png") no-repeat center;
+            }
+            @media(max-width: 1199px){
+                .product-page__main{
+                    background: url("img/bcp-tablet-bg.png") no-repeat bottom center, url("img/bcp-tablet-bg-flower.png") no-repeat center;
+                }
+            }
+            @media(max-width: 767px){
+                .product-page__main{
+                    background: url("img/bcp-mobile-bg.png") no-repeat bottom center, url("img/bcp-mobile-bg-flower.png") no-repeat center;
+                }
+            }
+        </style>
     </div>
 </div>
 <div class="page_article product-info flower">
@@ -83,36 +95,59 @@
         </div>
         <a href="" class="details-button">инструкция</a>
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico4.png"> Повышает иммунитет
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico4.png">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Повышает иммунитет
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">Витамин D</li>
+                        <li class="list-element">Витамин C</li>
+                        <li class="list-element">Цинк</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">Витамин D</li>
-                <li class="list-element">Витамин C</li>
-                <li class="list-element">Цинк</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg4.png">
         </div>
+
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico5.png"> Усиливает энергию и жизненный тонус
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico5.png">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Усиливает энергию и жизненный тонус
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">Витамины группы В</li>
+                        <li class="list-element">Йод</li>
+                        <li class="list-element">Экстракт листьев гинкго-билоба</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">Витамины группы В</li>
-                <li class="list-element">Йод</li>
-                <li class="list-element">Экстракт листьев гинкго-билоба</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg5.png">
         </div>
+
         <div class="info-item">
-            <div class="info-item-title">
-                <img class="info-item-icon" src="./img/product/prod-ico6.png"> Укрепляет женское здоровье
+            <div class="info-item-content">
+                <div class="info-item-title__icon">
+                    <img class="info-item-icon" src="./img/product/prod-ico6.png">
+                </div>
+                <div class="info-item-text">
+                    <div class="info-item-title">
+                        Укрепляет женское здоровье
+                    </div>
+                    <ul class="info-item-list">
+                        <li class="list-element">Экстракт  Донг-квая</li>
+                        <li class="list-element">Экстракт дикого ямса</li>
+                        <li class="list-element">Фолиевая кислота</li>
+                    </ul>
+                </div>
             </div>
-            <ul class="info-item-list">
-                <li class="list-element">Экстракт  Донг-квая</li>
-                <li class="list-element">Экстракт дикого ямса</li>
-                <li class="list-element">Фолиевая кислота</li>
-            </ul>
             <img class="info-item_bg" src="img/product/prod-info-bg6.png">
         </div>
     </div>
@@ -127,9 +162,11 @@
             <div class="expert-wrapper">
                 <div class="expert-name"><span class="text-uppercase">МОХНАЧЕВА  </span> Елена Владимировна </div>
                 <div class="expert-info">кандидат медицинских наук</div>
-                <p class="expert-text">
+                <div class="expert-text">
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     Результаты клинического исследования параметров состояния иммунитета (индекс фагоцитарной активности и циркулирующие иммунные комплексы) подтверждают наличие иммуномодулирующего действия  у препарата Ladys Formula Больше чем поливитамины, что обеспечивает повышение сопротивляемости организма, усиление иммунитета у пациенток с частыми ОРВИ и простудными заболеваниями,  а также способствуют  ускорению процесса выздоровления у пациенток с проявлениями астенического синдрома после перенесенных вирусных инфекций верхних дыхательных путей. Своевременный прием Lady's formula Больше чем поливитамины при первых признаках простуды способствует сокращению продолжительности заболевания и облегчает его течение.
-                </p>
+                </div>
             </div>
         </div>
         <div class="rating">
@@ -152,80 +189,85 @@
         </div>
     </div>
 </div>
-<div class="section section-rec flower wow">
-    <div class="container">
-        <div class="section-title">Выводы и рекомендации</div>
-        <div class="section-text">
-            <p>Результаты клинического исследования эффективности препарата  <b>Lady's formula
-                Больше чем поливитамины</b> с наиболее эффективными для активации иммунного ответа витаминами Д3, С и цинком в составе, свидетельствуют о достоверном улучшении иммунологических показателей в виде фагоцитарной активности и фагоцитарного индекса
-                на фоне уменьшения количества циркулирующих иммунных комплексов, обеспечивая усиление иммунного ответа и повышение сопротивляемости организма, в т.ч. простудным и вирусным заболеваниям. Своевременный прием препарата при первых признаках простуды облегчает течение заболевания и сокращает его продолжительность.
-            </p>
-            <p>Стимулируя неспецифические механизмы противоинфекционной защиты, препарат
-                <b>Lady's formula Больше чем поливитамины</b> рекомендован для профилактики вирусных инфекций (гриппа и ОРВИ), при повышенной восприимчивости к инфекциям (психоэмоциональные и физические перегрузки, стрессы), а также для улучшения самочувствия и повышения энергии
-                в период выздоровления (в т.ч. после вирусных инфекций верхних дыхательных путей).</p>
-            <ol>
-                <li>
-                    В ходе изучения эффективности препарата Lady's formula Больше чем поливитамины получены результаты, подтверждающие усиление неспецифических факторов защиты иммунитета и наличие иммунностимулирующего действия, обеспечивающих повышение иммунитета и сопротивляемости организма, в т.ч. простудным и вирусным заболеваниям
-                </li>
-                <li>
-                    Стимулируя неспецифические механизмы противоинфекционной защиты Lady's formula Больше чем поливитамины, может быть рекомендован для профилактики вирусных
-                    инфекций (гриппа и ОРВИ) при сниженной резистентности к инфекциям (психоэмоциональные и физические перегрузки, стресс)
-                </li>
-                <li>
-                    Lady's formula Больше чем поливитамины устраняет астенический синдром, повышает энергию и улучшает самочувствие в период выздоровления после перенесенных вирусных инфекций верхних дыхательных путей
-                </li>
-                <li>
-                    Фитоэстрогены донг-квая и дикого ямса в сочетании с фолиевой кислотой и витамином Е поддерживают гормональный баланс женских половых гормонов, укрепляют женское здоровье и опосредованно повышают иммунитет и защитные силы организма
-                </li>
-                <li>
-                    Доказанная клиническая эффективность и высокий профиль безопасности позволяют рекомендовать препарат Lady's formula Больше чем поливитамины для широкого
-                    применения с целью повышения иммунитета и укрепления женского здоровья
-                </li>
-            </ol>
-        </div>
-    </div>
-</div>
-<div class="section section-indicators flower wow">
-    <div class="container">
-        <div class="section-efficiency__subtitle">Динамика иммунологических показателей <span>Повышение иммунитета</span></div>
-        <div class="efficiency-lvl" data-efficiency-lvl-items="2">
-            <div class="efficiency-lvl-item">
-                <div class="efficiency-lvl-item__img">
-                    <img src="./img/efficiency-lvl-img-3.png" alt="" class="efficiency-lvl-item__picture">
-                </div>
-                <div class="efficiency-lvl-item__text">Фагоцитарный индекс (ФИ)</div>
-            </div>
-            <div class="efficiency-lvl-item">
-                <div class="efficiency-lvl-item__img">
-                    <img src="./img/efficiency-lvl-img-4.png" alt="" class="efficiency-lvl-item__picture">
-                </div>
-                <div class="efficiency-lvl-item__text">Циркулирующие иммунные комплексы (ЦИК)</div>
-            </div>
-        </div>
 
-        <div class="section-efficiency__subtitle">Динамика клинических показателей</div>
-        <div class="efficiency-lvl" data-efficiency-lvl-items="3">
-            <div class="efficiency-lvl-item">
-                <div class="efficiency-lvl-item__img">
-                    <img src="./img/efficiency-lvl-img-5.png" alt="" class="efficiency-lvl-item__picture">
-                </div>
-                <div class="efficiency-lvl-item__text">Слабость, утомляемость</div>
+<div class="section-efficiency">
+    <div class="section section-rec flower wow">
+        <div class="container">
+            <div class="section-title">Выводы и рекомендации</div>
+            <div class="section-text">
+                <p>Результаты клинического исследования эффективности препарата  <b>Lady's formula
+                    Больше чем поливитамины</b> с наиболее эффективными для активации иммунного ответа витаминами Д3, С и цинком в составе, свидетельствуют о достоверном улучшении иммунологических показателей в виде фагоцитарной активности и фагоцитарного индекса
+                    на фоне уменьшения количества циркулирующих иммунных комплексов, обеспечивая усиление иммунного ответа и повышение сопротивляемости организма, в т.ч. простудным и вирусным заболеваниям. Своевременный прием препарата при первых признаках простуды облегчает течение заболевания и сокращает его продолжительность.
+                </p>
+                <p>Стимулируя неспецифические механизмы противоинфекционной защиты, препарат
+                    <b>Lady's formula Больше чем поливитамины</b> рекомендован для профилактики вирусных инфекций (гриппа и ОРВИ), при повышенной восприимчивости к инфекциям (психоэмоциональные и физические перегрузки, стрессы), а также для улучшения самочувствия и повышения энергии
+                    в период выздоровления (в т.ч. после вирусных инфекций верхних дыхательных путей).</p>
+                <ol>
+                    <li>
+                        В ходе изучения эффективности препарата Lady's formula Больше чем поливитамины получены результаты, подтверждающие усиление неспецифических факторов защиты иммунитета и наличие иммунностимулирующего действия, обеспечивающих повышение иммунитета и сопротивляемости организма, в т.ч. простудным и вирусным заболеваниям
+                    </li>
+                    <li>
+                        Стимулируя неспецифические механизмы противоинфекционной защиты Lady's formula Больше чем поливитамины, может быть рекомендован для профилактики вирусных
+                        инфекций (гриппа и ОРВИ) при сниженной резистентности к инфекциям (психоэмоциональные и физические перегрузки, стресс)
+                    </li>
+                    <li>
+                        Lady's formula Больше чем поливитамины устраняет астенический синдром, повышает энергию и улучшает самочувствие в период выздоровления после перенесенных вирусных инфекций верхних дыхательных путей
+                    </li>
+                    <li>
+                        Фитоэстрогены донг-квая и дикого ямса в сочетании с фолиевой кислотой и витамином Е поддерживают гормональный баланс женских половых гормонов, укрепляют женское здоровье и опосредованно повышают иммунитет и защитные силы организма
+                    </li>
+                    <li>
+                        Доказанная клиническая эффективность и высокий профиль безопасности позволяют рекомендовать препарат Lady's formula Больше чем поливитамины для широкого
+                        применения с целью повышения иммунитета и укрепления женского здоровья
+                    </li>
+                </ol>
             </div>
-            <div class="efficiency-lvl-item">
-                <div class="efficiency-lvl-item__img">
-                    <img src="./img/efficiency-lvl-img-6.png" alt="" class="efficiency-lvl-item__picture">
+        </div>
+    </div>
+    <div class="section section-indicators flower wow">
+        <div class="container">
+            <div class="section-efficiency__subtitle">Динамика иммунологических показателей <span>Повышение иммунитета</span></div>
+            <div class="efficiency-lvl" data-efficiency-lvl-items="2">
+                <div class="efficiency-lvl-item">
+                    <div class="efficiency-lvl-item__img">
+                        <img src="./img/efficiency-lvl-img-3.png" alt="" class="efficiency-lvl-item__picture">
+                    </div>
+                    <div class="efficiency-lvl-item__text">Фагоцитарный индекс (ФИ)</div>
                 </div>
-                <div class="efficiency-lvl-item__text">Головные боли, нарушения сна</div>
+                <div class="efficiency-lvl-item">
+                    <div class="efficiency-lvl-item__img">
+                        <img src="./img/efficiency-lvl-img-4.png" alt="" class="efficiency-lvl-item__picture">
+                    </div>
+                    <div class="efficiency-lvl-item__text">Циркулирующие иммунные комплексы (ЦИК)</div>
+                </div>
             </div>
-            <div class="efficiency-lvl-item">
-                <div class="efficiency-lvl-item__img">
-                    <img src="./img/efficiency-lvl-img-7.png" alt="" class="efficiency-lvl-item__picture">
+
+            <div class="section-efficiency__subtitle">Динамика клинических показателей</div>
+            <div class="efficiency-lvl" data-efficiency-lvl-items="3">
+                <div class="efficiency-lvl-item">
+                    <div class="efficiency-lvl-item__img">
+                        <img src="./img/efficiency-lvl-img-5.png" alt="" class="efficiency-lvl-item__picture">
+                    </div>
+                    <div class="efficiency-lvl-item__text">Слабость, утомляемость</div>
                 </div>
-                <div class="efficiency-lvl-item__text">Мышечные, суставные боли, кардиолгия</div>
+                <div class="efficiency-lvl-item">
+                    <div class="efficiency-lvl-item__img">
+                        <img src="./img/efficiency-lvl-img-6.png" alt="" class="efficiency-lvl-item__picture">
+                    </div>
+                    <div class="efficiency-lvl-item__text">Головные боли, нарушения сна</div>
+                </div>
+                <div class="efficiency-lvl-item">
+                    <div class="efficiency-lvl-item__img">
+                        <img src="./img/efficiency-lvl-img-7.png" alt="" class="efficiency-lvl-item__picture">
+                    </div>
+                    <div class="efficiency-lvl-item__text">Мышечные, суставные боли, кардиолгия</div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
 <div class="page_article question">
     <div class="container text-center">
         <div class="question-title">Вопрос консультанту</div>
@@ -250,23 +292,17 @@
         <div class="carousel-wrapper">
             <div class="owl-carousel comments-slider">
                 <div class="comment-slide">
-                    <p class="comment-text">А у меня с циклом все в порядке,
-                        месячные точно по графику, но ужасно болезненные.
-                        Я даже пару раз сознание теряла, а тошнота, головные боли
-                        и ужасные боли в животе у меня были постоянно,
-                        до того как я Ледис формулу ПМС начала применять.
-                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
-                        я чувствую себя нормально...</p>
+                    <p class="comment-text">
+                        Впечатляющий биокомплекс! Вообще изначально
+                        я в состав не вникала, подруга посоветовала, сказала что для иммунитета (сейчас только глупый иммунитет не укрепляет я думая..такая ситуация...мамочки!) лучше не найти ну я и купила не раздумывая. А к концу первого месяца приема начала замечать что как то бодрее стала, сначала думала что из-за самоизоляции наконец то высыпаться начала, но потом поняла что в отпуске хоть я и высыпаюсь такого эффекта не замечаю. Да и сейчас с этим вирусом у меня должны бы нервишки шалить, что и было до курса, а тут и поспокойнее стала, такое приподнятое настроение и энергии намного больше. Пошла читать про состав и вот тут поняла что это за сокровище! Lady`s Formula больше чем поливитамины – это тройная защита иммунитета! В нем и экстракты лекарственных растений, и витамины и минералы! И нервы мне кажется пришли в норму благодаря В6 в составе, а это значит что ледис не дает стрессу ослабить иммунитет. Я ооочень довольна покупкой!)
+                    </p>
                     <p class="comment-name">Ира, Тольятти</p>
                 </div>
                 <div class="comment-slide">
-                    <p class="comment-text">А у меня с циклом все в порядке,
-                        месячные точно по графику, но ужасно болезненные.
-                        Я даже пару раз сознание теряла, а тошнота, головные боли
-                        и ужасные боли в животе у меня были постоянно,
-                        до того как я Ледис формулу ПМС начала применять.
-                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
-                        я чувствую себя нормально...</p>
+                    <p class="comment-text">
+                        Впечатляющий биокомплекс! Вообще изначально
+                        я в состав не вникала, подруга посоветовала, сказала что для иммунитета (сейчас только глупый иммунитет не укрепляет я думая..такая ситуация...мамочки!) лучше не найти ну я и купила не раздумывая. А к концу первого месяца приема начала замечать что как то бодрее стала, сначала думала что из-за самоизоляции наконец то высыпаться начала, но потом поняла что в отпуске хоть я и высыпаюсь такого эффекта не замечаю. Да и сейчас с этим вирусом у меня должны бы нервишки шалить, что и было до курса, а тут и поспокойнее стала, такое приподнятое настроение и энергии намного больше. Пошла читать про состав и вот тут поняла что это за сокровище! Lady`s Formula больше чем поливитамины – это тройная защита иммунитета! В нем и экстракты лекарственных растений, и витамины и минералы! И нервы мне кажется пришли в норму благодаря В6 в составе, а это значит что ледис не дает стрессу ослабить иммунитет. Я ооочень довольна покупкой!)
+                    </p>
                     <p class="comment-name">Ира, Тольятти</p>
                 </div>
             </div>
@@ -295,14 +331,13 @@
                     <div class="slide-title">Предупреждает возрастные изменения и раннюю менопаузу</div>
                 </div>
                 <div class="other-products-slide">
-                    <img src="img/product/other4.png">
-                    <div class="slide-title">Регулярно Безболезненно Комфортно</div>
+                    <img src="img/product/other5.png">
+                    <div class="slide-title">Тройная защита молочной железы</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="other-bg" style="background-image: url(img/product/other_bg_woman-bcp.png);"></div>
-    <!--<div class="flowers-bg" style="background-image: url(./img/product/other-prod-bg.jpg);"></div>-->
+    <div class="other-bg flowers-bg" style="background-image: url(img/product/other_bg_woman-bcp.png);"></div>
 </div>
 <div class="page_footer flower">
     <div class="container">
