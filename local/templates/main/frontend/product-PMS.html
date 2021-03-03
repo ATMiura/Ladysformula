@@ -36,7 +36,7 @@
                     <a class="menu-link" href="">Продукты</a>
                     <a class="menu-link" href="">Полезно знать</a>
                     <a class="menu-link" href="">Вопрос - ответ</a>
-                    <a class="menu-link" href="">Где купить</a>
+                    <a class="menu-link" href="" data-modal-name="buy">Где купить</a>
                 </div>
             </div>
             <div class="product-page__title fadeInRight wow" data-wow-delay="0.5s">
@@ -72,7 +72,7 @@
                     <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
                 </div>
             </div>
-            <a class="details-button_discount " href="">купить со скидкой</a>
+            <a class="details-button_discount modal-button" href="#" data-modal-name="buy">купить со скидкой</a>
         </div>
     </div>
     <div class="product-bg">
@@ -269,7 +269,7 @@
             <b>горячей линии (495) 744-06-27</b> <br>
             или заполнив он-лайн форму.
         </div>
-        <a href="" class="question-button">задать вопрос</a>
+        <a href="" class="modal-button" data-modal-name="question">задать вопрос</a>
         <p class="notice">Обращаем Ваше внимание на то, что получить консультацию Вы <br>
             можете по рабочим дням <br>
             с 10:00 до 18:00 по московскому времени<br>
@@ -414,8 +414,8 @@
         </div>
     </div>
 </div>
-<div class="modal">
 
+<div class="modal" data-modal="question">
     <div class="container modal-wrapper">
         <div class="question-title text-center">Задать вопрос</div>
         <form class="modal-form">
@@ -439,5 +439,112 @@
     </div>
     <div class="modal-overlay"></div>
 </div>
+
+<div class="modal" data-modal="buy">
+    <div class="container modal-wrapper">
+        <div class="buy">
+            <div class="buy-list">
+                <div class="buy-item">
+                    <div class="buy-item-img">
+                        <img src="./img/buy-item-img-1.png" alt="" class="buy-item-img__picture">
+                    </div>
+                    <div class="buy-item-variables-list">
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">30 капсул</div>
+                            <div class="buy-item-cost sale"><span class="sale-value">20%</span> 500 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">60 капсул</div>
+                            <div class="buy-item-cost">850 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-item">
+                    <div class="buy-item-img">
+                        <img src="./img/buy-item-img-2.png" alt="" class="buy-item-img__picture">
+                    </div>
+                    <div class="buy-item-variables-list">
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">30 капсул</div>
+                            <div class="buy-item-cost sale">545 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">60 капсул</div>
+                            <div class="buy-item-cost">850 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-item">
+                    <div class="buy-item-img">
+                        <img src="./img/buy-item-img-3.png" alt="" class="buy-item-img__picture">
+                    </div>
+                    <div class="buy-item-variables-list">
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">30 капсул</div>
+                            <div class="buy-item-cost">545 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">60 капсул</div>
+                            <div class="buy-item-cost sale"><span class="sale-value">10%</span> 830 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-item">
+                    <div class="buy-item-img">
+                        <img src="./img/buy-item-img-4.png" alt="" class="buy-item-img__picture">
+                    </div>
+                    <div class="buy-item-variables-list">
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">30 капсул</div>
+                            <div class="buy-item-cost sale">545 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">60 капсул</div>
+                            <div class="buy-item-cost">850 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-item">
+                    <div class="buy-item-img">
+                        <img src="./img/buy-item-img-5.png" alt="" class="buy-item-img__picture">
+                    </div>
+                    <div class="buy-item-variables-list">
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">30 капсул</div>
+                            <div class="buy-item-cost sale">545 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                        <div class="buy-item-variable">
+                            <div class="buy-item-variable-capsule">60 капсул</div>
+                            <div class="buy-item-cost">850 руб.</div>
+                            <a href="#" class="buy-item-button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="modal-close">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="34" height="34" fill="url(#pattern0)"/>
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="scale(0.0294118)"/>
+                    </pattern>
+                    <image id="image0" width="34" height="34" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC61BMVEXFAnvEAnrEAXrFAnrFAnvFAnvFAnvFAnrEAXrFAnvEAXrFAnvFAnrFAnrFAnrFAnrFAnrFAnvFAnvFAnrFAnvFAnrEAXrFAnvFAnvFAnvFAnvFAnvEAnrFAnvFAnvFAnvFAnvEAnrEAXrFAnvEAXrFAnvFAnvFAnrFAnvEAXrFAnrEAXrFAnrFAnvFAnrFAnrEAXrFAnvFAnrFAnvFAnvFAnvFAnvFAnrFAnvFAnvFAnrFAnvFAnvFAnrEAXrFAnvEAnrFAnvFAnvFAnvFAnrEAXrFAnvFAnvEAXrEAnrEAnrFAnvFAnvFAnrEAnrFAnvEAnrFAnvFAnvFAnrFAnvFAnrFAnvFAnrEAXrFAnrFAnvFAnrFAnvFAnvFAnvEAXrFAnvFAnvFAnvFAnvEAXrFAnvEAXoGBgEHBwIGBgEGBgHFAnvFAnrFAnvFAnsGBgEHBwLFAnvFAnrFAnrFAnsHBwIHBwIHBwIGBgEGBgHFAnvFAnvFAnvFAnsHBwIHBwIGBgEGBgEGBgEGBgHFAnvEAXrFAnoGBgHFAnvFAnvEAnoHBwLEAXrFAnoHBwLFAnvFAnoHBwLFAnvEAnrFAnsGBgIGBgLEAXrFAnvFAnvFAnoHBwIGBgIGBgIHBwLEAnrFAnvFAnvEAnrEAXrFAnsHBwIGBgHFAnvEAXrFAnrFAnvFAnrFAnrFAnvFAnsGBgIGBgHFAnvFAnvFAnrEAnrFAnvEAXrFAnrFAnrFAnvEAnrFAnvFAnvFAnvEAXrFAnvFAnrFAnvEAXrFAnvFAnrEAXrFAnvFAnvFAnrFAnvFAnvEAXrFAnvEAnrFAnvFAnrFAnvEAnrFAnvFAnvFAnrEAXrFAnvFAnvFAnrFAnvFAnrFAnvEAnrEAXrEAnrFAnvFAnvFAnrFAnrFAnvFAnrFAnvFAnvFAnrEAnrFAnrFAnvFAnvFAnrFAnrEAXrFAnvEAXrEAXrFAnrFAnvFAnsGBgEHBwIGBgL////VrgIoAAAA9XRSTlMAAAAACzpvrdnz9PTv0qJiMAcQYLv45byQfHN0f5fJ6u6oTgZDv/2/ZC0LETV5zvqoLAR39dBRChZq6uJYCZX8khcmtPZvApT5Awz3AXn9cAWbT0X5Dd8gDsbUDzDwkgNf+n81Db0IqrvMdyXmjQO7iOYkbioR3TNVmVVbrQoi7t0RIu7Xn9lEBb7zZrByd6f3RKn37yLus+zRmMzdEVUHw8iixQ6qiJPsMmBPLvJ4zDOmGgjREzNMauetIkZ7K+m4INvEEFr4lgXC6zL2mSPB8U1sMd3n2X0DM5k0kVUmCF6k8eh7EjiM5LGqssLe1SkmW56RHNur1WYAAAABYktHRPg7Y2dmAAAAB3RJTUUH5QMDCwsO11HuggAAAwBJREFUOMtVVGVYVUEQnd0VFBEFCxCxwW7EQEWegQoGiJigYBAqggpiknYg2F3Ygqgodhd2d3f3Ln+d3XvfRe57j927O3PmnDPzAUAoAXwoFLOwLF7CqqR1KZvSZWztoOjD8Fe2XPkKFe0dHCs5VXauUrVa9Ro11ZWWr9ZaLq6169Stp73Xb9CwUeMmTSkFxogWw5o1d2vh3hKIgQmtWrfxaIvJFPdIhbZr79nBC68YY5iItPCCmTp26qzOgDLo4t3VshswqkFoKz7dnX0sQb1Q3x49e2maQCbIICZrkt5+1v4qCfoEePsqaKLHaX/xra9LYD+UQvsPGDiIEUWCmT0w1xocFDwEl6Eh7sxsEDUkUYVJQksOozB8hMtIdR7GOQ9X+BAhhIhUikeNHhMFFiF1iJY4lgseKTfRBVxGKGzvmHEwPmaCXiE2DnEmAsRzISaZ7ZkcMAWm2k8zd2p6AheJSckpQoRjESJrUlPqDJjpUMhzFnIIi+AiLtbo8Ow5NjDXURZlKorNKxCci4RkYlbIYH4QuC0gVHqqRIKUVbDwP2cgbRG4OWkzQWVv0hFDiITpVMlR6BmLYUmo7idGLEW+4cs4T0zSncaz5Stg5SrD29jVQqxZuw7tCdN6hCHrN2yETZsz9dJsC3KdBTSai4KtTJ8v28BtUGb7DglKKEQi1a3IiUVg6Do8kkE7PXfB7qxsrXXxgos9TFJHC7nIkRMDXfam7oP9GbkHcE/SUzhPSdZYzkNdiTmy+sGshsgiL+SQLgixmJxnwxMAv8MmTLI7EnPUGHy5EI0pwYNjrseprHfi5KnMovNkRj195uw5Tdj5CxcvSSUynmndUiZ45V++QnXxllevZTJmWKjvrt+4ecsgx25bjbgDhfMtM6OO3b2Xh95Qppf3v2/1wETVuMoPefjosWf+EwnI9F4garC1x9NnzxXTF4Nfvnr95u07dacY4lc2//2HjwGpcz6lff7y9Zvn9+wf8t8CFHZczZPvz1+/c4N8fC5v/FPjLzNsgn8f5eRK2sqEzgAAAABJRU5ErkJggg=="/>
+                </defs>
+            </svg>
+        </a>
+    </div>
+    <div class="modal-overlay"></div>
+</div>
+
 </body>
 </html>

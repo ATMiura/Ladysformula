@@ -47,16 +47,20 @@ $(document).ready(function (){
     } else {
         $(".products-slider.owl-carousel").trigger('destroy.owl.carousel');
     }
+})
 
-    $('.question-button').on('click', function(e){
-        e.preventDefault()
-        $('.modal').toggleClass('open');
-        $('body').toggleClass('modalopen');
-        $('.modal-overlay').on('click', function(){
-            $('.modal').removeClass('open');
-            $('body').removeClass('modalopen');
-        })
-    })
+$(document).on('click','[data-modal-name]', function(e){
+    e.preventDefault();
+
+    var modalName = $(this).data('modal-name');
+
+    $('.modal[data-modal="'+modalName+'"]').toggleClass('open');
+    $('body').toggleClass('modalopen');
+});
+
+$(document).on('click', '.modal-overlay', function(){
+    $('.modal').removeClass('open');
+    $('body').removeClass('modalopen');
 })
 
 /* бургер */
