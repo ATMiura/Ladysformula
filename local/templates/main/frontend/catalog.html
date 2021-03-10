@@ -59,7 +59,7 @@
                 </div>
                 <div class="nav-wrapper level2 fadeIn wow" data-wow-delay="1.5s">
                     <div class="nav-wrapper__inner">
-                        <a class="nav-title" href="product.html"><img class="title-img" src="img/w-beauty.png">Красивые волосы, кожа и ногти</a>
+                        <a class="nav-title" href="product.html"><img class="title-img" src="img/w-beauty.png">Бьюти-шик</a>
                         <ul class="nav-list">
                             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.5s">Нестареющая Кожа™</span></li>
                             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.7s">Для Волос™</span></li>
@@ -96,7 +96,7 @@
                         <a class="nav-title" href="product.html"><img class="title-img" src="img/w-stress.png"> STOP-стресс</a>
                         <ul class="nav-list">
                             <li class="list-element"><span class="fadeIn wow" data-wow-delay="3.9s">Антистресс™ <span class="subititle">Усиленная Формула</span></span></li>
-                            <li class="list-element"><span class="fadeIn wow" data-wow-delay="4.1s">Энерготоник™</span></li>
+                            <li class="list-element"><span class="fadeIn wow" data-wow-delay="4.1s">Энерго-Тоник™</span></li>
                         </ul>
                     </div>
                 </div>
@@ -104,15 +104,62 @@
         </div>
 
     </div>
-    <img class="container_bg wow" src="./img/catalog_bg.png">
+
+    <div class="catalog-main-bg fadeIn wow catalog-main-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-main-bg fadeIn wow catalog-main-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-main-bg fadeIn wow catalog-main-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-main-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-main-stars{
+            background-image: url("./img/catalog-main-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-main-flower{
+            background-image: url("./img/catalog-main-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-main-girl{
+            background-image: url("./img/catalog-main-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-main-stars{
+                background-image: url("./img/catalog-main-bg-tablet-stars.png");
+            }
+            .catalog-main-flower{
+                background-image: url("./img/catalog-main-bg-tablet-flower.png");
+            }
+            .catalog-main-girl{
+                background-image: url("./img/catalog-main-bg-tablet-girl.png");
+            }
+        }
+        @media screen and (max-width: 767px){
+            .catalog-main-bg{
+                display: none;
+                background: none;
+            }
+        }
+    </style>
 </div>
 <div id="w_health" class="page_article catalog health">
-
     <div class="container">
-        <div class="catalog-item__title">
+        <div class="catalog-item__title fadeIn wow" data-wow-delay="0.4s">
             <img class="title-img" src="img/w_health.png">  Женское здоровье
         </div>
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Женщина 30 Плюс™ <span class="subtitle">Усиленная Формула</span></span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Женщина 40 Плюс™</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.6s">Больше чем поливитамины™</span></li>
@@ -120,20 +167,76 @@
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="2s">Персональная Месячная Система™ <br> <span class="subtitle">Усиленная Формула</span></span></li>
         </ul>
     </div>
-    <img class="catalog-decor fadeIn wow" data-wow-delay="1s" src="img/catalog_health_decor.png">
     <div class="catalog__header">
         <div class="container flower">
-            <div class="block-title text-center">Повышение энергии, укрепление женского здоровья</div>
+            <div class="block-title text-center">Повышение энергии, укрепление <br> женского здоровья</div>
         </div>
     </div>
+
+    <div class="catalog-health-bg fadeIn wow catalog-health-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-health-bg fadeIn wow catalog-health-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-health-bg fadeIn wow catalog-health-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-health-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-health-stars{
+            background-image: url("./img/catalog-health-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-health-flower{
+            background-image: url("./img/catalog-health-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-health-girl{
+            background-image: url("./img/catalog-health-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-health-stars{
+                background-image: url("./img/catalog-health-bg-tablet-stars.png");
+            }
+            .catalog-health-flower{
+                background-image: url("./img/catalog-health-bg-tablet-flower.png");
+            }
+            .catalog-health-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/catalog-health-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-health-stars{
+                background-image: url("./img/catalog-health-bg-mobile-stars.png");
+            }
+            .catalog-health-flower{
+                background-image: url("./img/catalog-health-bg-mobile-flower.png");
+            }
+            .catalog-health-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/catalog-health-bg-mobile-girl.png");
+            }
+        }
+    </style>
 </div>
 <div id="w_anti_age" class="page_article catalog age wow">
 
     <div class="container">
-        <div class="catalog-item__title">
+        <div class="catalog-item__title fadeIn wow" data-wow-delay="0.4s">
             <img class="title-img" src="img/w-anti_age.png"> Anti-Age
         </div>
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Нестареющая Кожа™</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Менопауза™  <span class="subtitle">Усиленная Формула</span></span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Менопауза День-Ночь™ </span></li>
@@ -144,74 +247,288 @@
 
     </div>
 
-        <img class="catalog-decor fadeIn wow" data-wow-delay="1s" src="img/catalog_antiage_decor.png">
-
-
     <div class="catalog__header">
         <div class="container flower">
-            <div class="block-title">Предупреждение возрастных изменений</div>
+            <div class="block-title">Предупреждение <br> возрастных изменений</div>
         </div>
     </div>
+
+    <div class="catalog-age-bg fadeIn wow catalog-age-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-age-bg fadeIn wow catalog-age-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-age-bg fadeIn wow catalog-age-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-age-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-age-stars{
+            background-image: url("./img/catalog-age-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-age-flower{
+            background-image: url("./img/catalog-age-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-age-girl{
+            background-image: url("./img/catalog-age-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-age-stars{
+                background-image: url("./img/catalog-age-bg-tablet-stars.png");
+            }
+            .catalog-age-flower{
+                background-image: url("./img/catalog-age-bg-tablet-flower.png");
+            }
+            .catalog-age-girl{
+                background-image: url("./img/catalog-age-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-age-stars{
+                background-image: url("./img/catalog-age-bg-mobile-stars.png");
+            }
+            .catalog-age-flower{
+                background-image: url("./img/catalog-age-bg-mobile-flower.png");
+            }
+            .catalog-age-girl{
+                background-image: url("./img/catalog-age-bg-mobile-girl.png");
+            }
+        }
+    </style>
 </div>
 <div id="w_manno" class="page_article catalog pausa">
 
     <div class="container">
-        <div class="catalog-item__title">
+        <div class="catalog-item__title fadeIn wow" data-wow-delay="0.4s">
             <img class="title-img" src="img/w-manno.png"> MeNOпауза
         </div>
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Нестареющая Кожа™</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Менопауза™  <span class="subtitle">Усиленная Формула</span></span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Менопауза День-Ночь™ </span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.6s">Укрепление Костной Ткани™</span></li>
         </ul>
     </div>
-    <div class="container catalog-decor">
-        <img class=" fadeIn wow" data-wow-delay="1s" src="img/catalog_manno_decor.png">
-    </div>
 
     <div class="catalog__header">
         <div class="container flower">
-            <div class="block-title text-center">Устранение симптомов менопаузы с anti-age эффектом</div>
+            <div class="block-title text-center">Устранение симптомов менопаузы <br> с anti-age эффектом</div>
         </div>
     </div>
+
+    <div class="catalog-pausa-bg fadeIn wow catalog-pausa-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-pausa-bg fadeIn wow catalog-pausa-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-pausa-bg fadeIn wow catalog-pausa-couple  " data-wow-delay="1s"></div>
+    <style>
+        .catalog-pausa-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-pausa-stars{
+            background-image: url("./img/catalog-pausa-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-pausa-flower{
+            background-image: url("./img/catalog-pausa-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-pausa-couple{
+            background-image: url("./img/catalog-pausa-bg-couple.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-pausa-stars{
+                background-image: url("./img/catalog-pausa-bg-tablet-stars.png");
+            }
+            .catalog-pausa-flower{
+                background-image: url("./img/catalog-pausa-bg-tablet-flower.png");
+            }
+            .catalog-pausa-couple{
+                background-image: url("./img/catalog-pausa-bg-tablet-couple.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-pausa-stars{
+                background-image: url("./img/catalog-pausa-bg-mobile-stars.png");
+            }
+            .catalog-pausa-flower{
+                background-image: url("./img/catalog-pausa-bg-mobile-flower.png");
+            }
+            .catalog-pausa-couple{
+                background-image: url("./img/catalog-pausa-bg-mobile-couple.png");
+            }
+        }
+    </style>
 </div>
 <div id="w_beauty" class="page_article catalog beauty">
 
     <div class="container">
-        <div class="catalog-item__title">
-            <img class="title-img" src="img/w-beauty.png">  Бьюти-шик
+        <div class="catalog-item__title fadeIn wow" data-wow-delay="0.4s">
+            <img class="title-img" src="img/w-beauty.png">Бьюти-шик
         </div>
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Нестареющая Кожа™</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Для Волос™</span></li>
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Для Волос, Кожи и Ногтей™  <br> <span class="subtitle">Усиленная Формула</span></span></li>
         </ul>
     </div>
-    <img class="catalog-decor fadeIn wow" data-wow-delay="1s" src="img/catalog_beauty_decor.png">
+
     <div class="catalog__header">
         <div class="container flower">
-            <div class="block-title">Красота и здоровье кожи, волос и ногтей   </div>
+            <div class="block-title">Красота и здоровье кожи, <br> волос и ногтей   </div>
         </div>
     </div>
+
+    <div class="catalog-beauty-bg fadeIn wow catalog-beauty-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-beauty-bg fadeIn wow catalog-beauty-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-beauty-bg fadeIn wow catalog-beauty-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-beauty-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-beauty-stars{
+            background-image: url("./img/catalog-beauty-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-beauty-flower{
+            background-image: url("./img/catalog-beauty-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-beauty-girl{
+            background-image: url("./img/catalog-beauty-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-beauty-stars{
+                background-image: url("./img/catalog-beauty-bg-tablet-stars.png");
+            }
+            .catalog-beauty-flower{
+                background-image: url("./img/catalog-beauty-bg-tablet-flower.png");
+            }
+            .catalog-beauty-girl{
+                background-image: url("./img/catalog-beauty-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-beauty-stars{
+                background-image: url("./img/catalog-beauty-bg-mobile-stars.png");
+            }
+            .catalog-beauty-flower{
+                background-image: url("./img/catalog-beauty-bg-mobile-flower.png");
+            }
+            .catalog-beauty-girl{
+                background-image: url("./img/catalog-beauty-bg-mobile-girl.png");
+            }
+        }
+    </style>
 </div>
 <div id="w_anti-stress" class="page_article catalog stress">
 
     <div class="container">
-        <div class="catalog-item__title">
+        <div class="catalog-item__title fadeIn wow" data-wow-delay="0.4s">
             <img class="title-img" src="img/w-stress.png"> Stop стресс
         </div>
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
             <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Антистресс™ <span class="subtitle">Усиленная Формула</span></span></li>
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Антистресс™ </span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Энерго-Тоник™ </span></li>
         </ul>
     </div>
-    <img class="catalog-decor fadeIn wow" data-wow-delay="1s" src="img/catalog_stress_decor.png">
+
     <div class="catalog__header">
         <div class="container flower">
-            <div class="block-title">Защита от стресса и повышение энергии</div>
+            <div class="block-title">Защита от стресса <br> и повышение энергии</div>
         </div>
     </div>
+
+    <div class="catalog-stress-bg fadeIn wow catalog-stress-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-stress-bg fadeIn wow catalog-stress-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-stress-bg fadeIn wow catalog-stress-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-stress-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-stress-stars{
+            background-image: url("./img/catalog-stress-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-stress-flower{
+            background-image: url("./img/catalog-stress-bg-flower.png");
+            z-index: 2;
+            opacity: .35;
+        }
+        .catalog-stress-girl{
+            background-image: url("./img/catalog-stress-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-stress-stars{
+                background-image: url("./img/catalog-stress-bg-tablet-stars.png");
+            }
+            .catalog-stress-flower{
+                background-image: url("./img/catalog-stress-bg-tablet-flower.png");
+            }
+            .catalog-stress-girl{
+                background-image: url("./img/catalog-stress-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-stress-stars{
+                background-image: url("./img/catalog-stress-bg-mobile-stars.png");
+            }
+            .catalog-stress-flower{
+                background-image: url("./img/catalog-stress-bg-mobile-flower.png");
+            }
+            .catalog-stress-girl{
+                background-image: url("./img/catalog-stress-bg-mobile-girl.png");
+            }
+        }
+    </style>
 </div>
 <div class="page_article question">
     <div class="container text-center">
@@ -223,12 +540,12 @@
             <b>горячей линии (495) 744-06-27</b> <br>
             или заполнив он-лайн форму.
         </div>
-        <a href="" class="question-button">задать вопрос</a>
+        <a href="" class="modal-button">задать вопрос</a>
         <p class="notice">Обращаем Ваше внимание на то, что получить консультацию Вы <br>
             можете по рабочим дням <br>
             с 10:00 до 18:00 по московскому времени<br>
             <b>Ни один вопрос не останется без внимания!</b></p>
-        <a class="faq-link" href="">Часто задаваемые вопросы</a>
+        <!--<a class="faq-link" href="">Часто задаваемые вопросы</a>-->
     </div>
 </div>
 <div class="page_article comments">
@@ -302,7 +619,7 @@
                 <div class="links-title">STOP стресс</div>
                 <ul class="links-list">
                     <li class="list-item"><a href="">Антистресс™ Усиленная Формула</a></li>
-                    <li class="list-item"><a href="">Энерготоник™</a></li>
+                    <li class="list-item"><a href="">Энерго-Тоник™</a></li>
                 </ul>
             </div>
         </div>
