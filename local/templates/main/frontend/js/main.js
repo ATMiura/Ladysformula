@@ -34,14 +34,16 @@ $(document).ready(function (){
         autoplayTimeout:1000,
         autoplayHoverPause:true,
     });
-    if($(window).width() > 420) {
+    if($(window).width() > 767) {
         $(".products-slider").owlCarousel({
             loop: true,
             items:1,
             nav:true,
             navText:[],
             dots:true,
-            responsiveClass:false
+            responsiveClass:false,
+            animateIn: 'fadeIn', // add this
+            animateOut: 'fadeOut' // and this
         });
 
     } else {

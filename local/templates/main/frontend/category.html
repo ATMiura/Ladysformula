@@ -32,7 +32,6 @@
                     <span class="burger_bar"></span>
                 </div>
 
-
                 <div id="menu" class="menu">
                     <a class="menu-link" href="">Продукты</a>
                     <a class="menu-link" href="">Полезно знать</a>
@@ -67,6 +66,65 @@
             </div>
         </div>
     </div>
+
+    <div class="catalog-health-bg fadeIn wow catalog-health-stars   " data-wow-delay="3s"></div>
+    <div class="catalog-health-bg fadeIn flowerFade wow catalog-health-flower  " data-wow-delay="2s"></div>
+    <div class="catalog-health-bg fadeIn wow catalog-health-girl    " data-wow-delay="1s"></div>
+    <style>
+        .catalog-health-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .catalog-health-stars{
+            background-image: url("./img/catalog-health-bg-stars.png");
+            z-index: 3;
+        }
+        .catalog-health-flower{
+            background-image: url("./img/catalog-health-bg-flower.png");
+            z-index: 2;
+            /*opacity: .35;*/
+
+        }
+        .catalog-health-girl{
+            background-image: url("./img/catalog-health-bg-girl.png");
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .catalog-health-stars{
+                background-image: url("./img/catalog-health-bg-tablet-stars.png");
+            }
+            .catalog-health-flower{
+                background-image: url("./img/catalog-health-bg-tablet-flower.png");
+            }
+            .catalog-health-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/catalog-health-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .catalog-health-stars{
+                background-image: url("./img/catalog-health-bg-mobile-stars.png");
+            }
+            .catalog-health-flower{
+                background-image: url("./img/catalog-health-bg-mobile-flower.png");
+            }
+            .catalog-health-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/catalog-health-bg-mobile-girl.png");
+            }
+        }
+    </style>
+
 </div>
 <div class="page_article product flower">
     <div class="container text-center">
@@ -76,11 +134,9 @@
                 <div class="product-slide">
                     <div class="product-slide__title">Женщина 30 Плюс™ <span class="subtitle">Усиленная Формула</span></div>
                     <div class="product-header">
-                        <img class="product-icon" src="./img/product/prop-icon.png">
+                        <img class="product-icon" src="./img/product/category-icon-1.png">
                         <div class="product-title">
-                            <div class="product-title__text">
-                                Для повышения активности, защитных сил и поддержки здоровья молочной железы
-                            </div>
+                            <div class="product-title__text">Для повышения активности, защитных сил и поддержки здоровья молочной железы</div>
                         </div>
                     </div>
                     <div class="product-slide__image">
@@ -94,7 +150,7 @@
                 <div class="product-slide">
                     <div class="product-slide__title">Женщина 40 Плюс™</div>
                     <div class="product-header">
-                        <img class="product-icon" src="./img/product/prop-icon.png">
+                        <img class="product-icon" src="./img/product/category-icon-2.png">
                         <div class="product-title">
                             <div class="product-title__text">
                                 Предупреждает возрастные изменения
@@ -102,7 +158,7 @@
                         </div>
                     </div>
                     <div class="product-slide__image">
-                        <img src="./img/product/prod1.png">
+                        <img src="./img/product/prod2.png">
                     </div>
                     <div class="product-buttons_wrapper">
                         <a class="details-button" href="product.html">подробнее о препарате</a>
@@ -112,13 +168,13 @@
                 <div class="product-slide">
                     <div class="product-slide__title">Больше чем поливитамины™</div>
                     <div class="product-header">
-                        <img class="product-icon" src="./img/product/prop-icon.png">
+                        <img class="product-icon" src="./img/product/category-icon-3.png">
                         <div class="product-title">
                             <div class="product-title__text">Для обогащения организма питательными веществами и укрепления женского здоровья</div>
                         </div>
                     </div>
                     <div class="product-slide__image">
-                        <img src="./img/product/prod1.png">
+                        <img src="./img/product/prod3.png">
                     </div>
                     <div class="product-buttons_wrapper">
                         <a class="details-button" href="product.html">подробнее о препарате</a>
@@ -128,13 +184,13 @@
                 <div class="product-slide">
                     <div class="product-slide__title">Пренатал Оптима™</div>
                     <div class="product-header">
-                        <img class="product-icon" src="./img/product/prop-icon.png">
+                        <img class="product-icon" src="./img/product/category-icon-4.png">
                         <div class="product-title">
                             <div class="product-title__text">Оптимальная поддержка здоровья мамы и будущего малыша</div>
                         </div>
                     </div>
                     <div class="product-slide__image">
-                        <img src="./img/product/prod1.png">
+                        <img src="./img/product/prod4.png">
                     </div>
                     <div class="product-buttons_wrapper">
                         <a class="details-button" href="product.html">подробнее о препарате</a>
@@ -142,15 +198,15 @@
                     </div>
                 </div>
                 <div class="product-slide">
-                    <div class="product-slide__title">Персональная Месячная Система™ <span class="subtitle">Усиленная Формула</span></div>
+                    <div class="product-slide__title">Персональная Месячная Система™</div>
                     <div class="product-header">
-                        <img class="product-icon" src="./img/product/prop-icon.png">
+                        <img class="product-icon" src="./img/product/category-icon-5.png">
                         <div class="product-title">
                             <div class="product-title__text">Нормализует менструальный цикл без симптомов ПМС</div>
                         </div>
                     </div>
                     <div class="product-slide__image">
-                        <img src="./img/product/prod1.png">
+                        <img src="./img/product/prod5.png">
                     </div>
                     <div class="product-buttons_wrapper">
                         <a class="details-button" href="product.html">подробнее о препарате</a>
