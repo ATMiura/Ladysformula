@@ -1,5 +1,5 @@
 /* wow js */
-$(document).ready(function (){
+jQuery(document).ready(function($) {
     new WOW().init();
 
     $(".comments-slider").owlCarousel({
@@ -23,17 +23,6 @@ $(document).ready(function (){
         responsiveClass:false
     });
 
-    $(".owl-carousel").owlCarousel({
-        loop: true,
-        items:1,
-        nav:true,
-        navText:[],
-        dots:true,
-        responsiveClass:false,
-        autoplay:false,
-        autoplayTimeout:1000,
-        autoplayHoverPause:true,
-    });
     if($(window).width() > 767) {
         $(".products-slider").owlCarousel({
             loop: true,
@@ -49,6 +38,19 @@ $(document).ready(function (){
     } else {
         $(".products-slider.owl-carousel").trigger('destroy.owl.carousel');
     }
+
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        items:1,
+        nav:true,
+        navText:[],
+        dots:true,
+        responsiveClass:false,
+        autoplay:false,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+    });
+
 
     if($(window).width() < 1200){
         $('.expert').each(function (){
@@ -79,7 +81,8 @@ $(document).on('click','[data-modal-name]', function(e){
     $('body').toggleClass('modalopen');
 });
 
-$(document).on('click', '.modal-overlay', function(){
+$(document).on('click', '.modal-overlay, .modal-close', function(e){
+    e.preventDefault();
     $('.modal').removeClass('open');
     $('body').removeClass('modalopen');
 })
