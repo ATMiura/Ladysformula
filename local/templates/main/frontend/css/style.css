@@ -1652,11 +1652,16 @@
     margin-left: 21%;
 }
 .product-wrapper .owl-nav {
-    top: 41%;
-    width: 80%;
+    top: 43.8%;
+    width: 69.2%;
     right: 0;
     left: initial;
     transform: none;
+}
+.product-wrapper .owl-next {
+    float: right;
+    padding-right: 10.9%;
+    background-repeat: no-repeat;
 }
 .product-wrapper .product-icon {
     margin-right: 40px;
