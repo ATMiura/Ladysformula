@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -20,9 +21,7 @@
 
 </head>
 <body>
-
-<div class="page_article category health">
-
+<div id="w_health" class="section-fh category-main">
     <div class="container">
         <div class="header__nav">
             <div class="header-nav__burger">
@@ -49,29 +48,17 @@
                 </div>
             </div>
         </div>
-
-
-        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.5s">
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1s">Женщина 30 Плюс™</span></li>
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Женщина 40 Плюс™</span></li>
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Больше чем поливитамины™</span></li>
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.6s">Пренатал Оптима™</span></li>
-            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.8s">Персональная Месячная Система™</span></li>
+        <ul class="catalog-item__list fadeIn wow" data-wow-delay="0.75s">
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.2s">Больше чем поливитамины™</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.4s">Персональная Месячная Система™ Усиленная Формула</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.6s">Женщина 30 Плюс™ Усиленная Формула</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="1.8s">Женщина 40 Плюс™</span></li>
+            <li class="list-element"><span class="fadeIn wow" data-wow-delay="2s">Пренатал Оптима™<br></span></li>
         </ul>
     </div>
-    <div class="category__header">
-        <div class="container flower">
-            <div class="block-title fadeIn wow" data-wow-delay="2.5s">Биокомплексы для иммунитета, энергии, здоровья </div>
-            <div class="logo_stamp fadeIn wow" data-wow-delay="2.5s">
-                <div class="canvas-wrap pulse wow" data-wow-delay="3s">
-                    <div id="canvas" class="fadeIn wow" data-wow-delay="3.5s"></div>
-                    <div class="plane">
-                        <img src="./img/flag.jpg" />
-                    </div>
-                    <p class="canvas-title">Made in the USA</p>
-                </div>
-                <p class="stamp-title fadeIn wow" data-wow-delay="3.5s">Сделано в США</p>
-            </div>
+    <div class="catalog__header flower">
+        <div class="container">
+            <div class="block-title text-center">Повышение энергии, укрепление <br> женского здоровья</div>
         </div>
     </div>
 
@@ -92,17 +79,18 @@
             background-repeat: no-repeat;
         }
         .catalog-health-stars{
-            background-image: url("./img/catalog-health-bg-stars.png");
+            background-image: url("./img/category-health-bg-stars.png");
             z-index: 3;
         }
         .catalog-health-flower{
-            background-image: url("./img/catalog-health-bg-flower.png");
+            background-image: url("./img/category-health-bg-flower.png");
             z-index: 2;
             /*opacity: .35;*/
 
         }
         .catalog-health-girl{
-            background-image: url("./img/catalog-health-bg-girl.png");
+            background-image: url("./img/category-health-bg-girl.png");
+            background-position: top center;
             z-index: 1;
         }
 
@@ -132,101 +120,166 @@
             }
         }
     </style>
-
 </div>
-<div class="page_article product flower">
+<div class="section-fh page_article category-product flower">
     <div class="container text-center">
-
         <div class="product-wrapper">
             <div class="products-slider owl-carousel">
                 <div class="product-slide">
-                    <div class="product-slide__title">Женщина 30 Плюс™ <span class="subtitle">Усиленная Формула</span></div>
-                    <div class="product-header">
-                        <img class="product-icon" src="./img/product/category-icon-1.png">
-                        <div class="product-title">
-                            <div class="product-title__text">Для повышения активности, защитных сил и поддержки здоровья молочной железы</div>
-                        </div>
-                    </div>
-                    <div class="product-slide__image">
-                        <img src="./img/product/prod1.png">
-                    </div>
-                    <div class="product-buttons_wrapper">
-                        <a href="product.html" class="details-button">подробнее о препарате</a>
-                        <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
-                    </div>
-                </div>
-                <div class="product-slide">
-                    <div class="product-slide__title">Женщина 40 Плюс™</div>
-                    <div class="product-header">
-                        <img class="product-icon" src="./img/product/category-icon-2.png">
-                        <div class="product-title">
-                            <div class="product-title__text">
-                                Предупреждает возрастные изменения
+                    <div class="product-slide__title">Персональная Месячная Система™ <span class="subtitle">Усиленная формула</span></div>
+                    <div class="product-slide__body">
+                        <div class="product-header">
+                            <img class="product-icon" src="./img/product/category-icon-5.png">
+                            <div class="product-title">
+                                <div class="product-title__text">Нормализует менструальный цикл без симптомов ПМС</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="product-slide__image">
-                        <img src="./img/product/prod2.png">
-                    </div>
-                    <div class="product-buttons_wrapper">
-                        <a href="product.html" class="details-button">подробнее о препарате</a>
-                        <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        <div class="product-slide__image">
+                            <img src="./img/product/prod5.png">
+                        </div>
+                        <div class="product-buttons_wrapper">
+                            <a href="product.html" class="details-button">подробнее о препарате</a>
+                            <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        </div>
                     </div>
                 </div>
                 <div class="product-slide">
                     <div class="product-slide__title">Больше чем поливитамины™</div>
-                    <div class="product-header">
-                        <img class="product-icon" src="./img/product/category-icon-3.png">
-                        <div class="product-title">
-                            <div class="product-title__text">Для обогащения организма питательными веществами и укрепления женского здоровья</div>
+                    <div class="product-slide__body">
+                        <div class="product-header">
+                            <img class="product-icon" src="./img/product/category-icon-3.png">
+                            <div class="product-title">
+                                <div class="product-title__text">Для обогащения организма питательными веществами и укрепления женского здоровья</div>
+                            </div>
+                        </div>
+                        <div class="product-slide__image">
+                            <img src="./img/product/prod3.png">
+                        </div>
+                        <div class="product-buttons_wrapper">
+                            <a href="product.html" class="details-button">подробнее о препарате</a>
+                            <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
                         </div>
                     </div>
-                    <div class="product-slide__image">
-                        <img src="./img/product/prod3.png">
+                </div>
+                <div class="product-slide">
+                    <div class="product-slide__title">Женщина 30 Плюс™ <span class="subtitle">Усиленная Формула</span></div>
+                    <div class="product-slide__body">
+                        <div class="product-header">
+                            <img class="product-icon" src="./img/product/category-icon-1.png">
+                            <div class="product-title">
+                                <div class="product-title__text">Для повышения активности, защитных сил и поддержки здоровья молочной железы</div>
+                            </div>
+                        </div>
+                        <div class="product-slide__image">
+                            <img src="./img/product/prod1.png">
+                        </div>
+                        <div class="product-buttons_wrapper">
+                            <a href="product.html" class="details-button">подробнее о препарате</a>
+                            <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        </div>
                     </div>
-                    <div class="product-buttons_wrapper">
-                        <a href="product.html" class="details-button">подробнее о препарате</a>
-                        <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                </div>
+                <div class="product-slide">
+                    <div class="product-slide__title">Женщина 40 Плюс™</div>
+                    <div class="product-slide__body">
+                        <div class="product-header">
+                            <img class="product-icon" src="./img/product/category-icon-2.png">
+                            <div class="product-title">
+                                <div class="product-title__text">
+                                    Предупреждает возрастные изменения
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-slide__image">
+                            <img src="./img/product/prod2.png">
+                        </div>
+                        <div class="product-buttons_wrapper">
+                            <a href="product.html" class="details-button">подробнее о препарате</a>
+                            <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        </div>
                     </div>
                 </div>
                 <div class="product-slide">
                     <div class="product-slide__title">Пренатал Оптима™</div>
-                    <div class="product-header">
-                        <img class="product-icon" src="./img/product/category-icon-4.png">
-                        <div class="product-title">
-                            <div class="product-title__text">Оптимальная поддержка здоровья мамы и будущего малыша</div>
+                    <div class="product-slide__body">
+                        <div class="product-header">
+                            <img class="product-icon" src="./img/product/category-icon-4.png">
+                            <div class="product-title">
+                                <div class="product-title__text">Оптимальная поддержка здоровья мамы и будущего малыша</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="product-slide__image">
-                        <img src="./img/product/prod4.png">
-                    </div>
-                    <div class="product-buttons_wrapper">
-                        <a href="product.html" class="details-button">подробнее о препарате</a>
-                        <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
-                    </div>
-                </div>
-                <div class="product-slide">
-                    <div class="product-slide__title">Персональная Месячная Система™</div>
-                    <div class="product-header">
-                        <img class="product-icon" src="./img/product/category-icon-5.png">
-                        <div class="product-title">
-                            <div class="product-title__text">Нормализует менструальный цикл без симптомов ПМС</div>
+                        <div class="product-slide__image">
+                            <img src="./img/product/prod4.png">
                         </div>
-                    </div>
-                    <div class="product-slide__image">
-                        <img src="./img/product/prod5.png">
-                    </div>
-                    <div class="product-buttons_wrapper">
-                        <a href="product.html" class="details-button">подробнее о препарате</a>
-                        <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        <div class="product-buttons_wrapper">
+                            <a href="product.html" class="details-button">подробнее о препарате</a>
+                            <a href="" class="details-button_discount modal-button" data-modal-name="buy">купить со скидкой</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
+    <div class="category-product-bg fadeIn wow category-product-stars   " data-wow-delay="3s"></div>
+    <div class="category-product-bg fadeIn flowerFade wow category-product-flower  " data-wow-delay="2s"></div>
+    <div class="category-product-bg fadeIn wow category-product-girl    " data-wow-delay="1s"></div>
+    <style>
+        .category-product-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .category-product-stars{
+            background-image: url("./img/category-product-bg-stars.png");
+            z-index: 3;
+        }
+        .category-product-flower{
+            background-image: url("./img/category-product-bg-flower.png");
+            z-index: 2;
+            /*opacity: .35;*/
+
+        }
+        .category-product-girl{
+            background-image: url("./img/category-product-bg-girl.png");
+            background-position: top center;
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 1199px){
+            .category-product-stars{
+                background-image: url("./img/category-product-bg-tablet-stars.png");
+            }
+            .category-product-flower{
+                background-image: url("./img/category-product-bg-tablet-flower.png");
+            }
+            .category-product-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/category-product-bg-tablet-girl.png");
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .category-product-stars{
+                background-image: url("./img/category-product-bg-mobile-stars.png");
+            }
+            .category-product-flower{
+                background-image: url("./img/category-product-bg-mobile-flower.png");
+            }
+            .category-product-girl{
+                background-color: #dbe2ea;
+                background-image: url("./img/category-product-bg-mobile-girl.png");
+            }
+        }
+    </style>
 </div>
-<div class="page_article experts wow">
+<div class="section-fh category-expert experts wow">
     <div class="container flower">
         <div class="container-title text-center">Мнение эксперта</div>
         <div class="expert">
@@ -237,18 +290,26 @@
                 <div class="expert-name"><span class="text-uppercase">СЕРОВ </span> Владимир Николаевич </div>
                 <div class="expert-info">Академик РАН, РАМН, доктор медицинских наук, профессор, заслуженный деятель науки РФ, президент Российского общества акушеров-гинекологов</div>
                 <div class="expert-text">
-                    Рациональное питание является краеугольным камнем здоровья, хорошего самочувствия и отличного внешнего вида. Восполнить в рационе  дефицит витаминов и минералов невозможно только за счет питания, поэтому дополнительный прием полезных веществ - источников укрепления иммунитета, повышения энергии, работоспособности становится обычной повседневной практикой для всех, кто заботится о своем здоровье, стремится повысить энергию, укрепить иммунитет и хорошо выглядеть.
-                    Здоровье и хорошее самочувствие женщины во многом зависят от слаженной работы иммунной и эндокринной систем. На протяжении долгого времени понятия женский иммунитет не существовало, но в настоящее время доказано, что женский иммунитет отличается от мужского и связано это
-                    с действиями женских половых гормонов – эстрогенов.
-                    Для поддержания гормонального баланса у женщин с целью усиления иммунитета предпочтительнее выбор фитоэстрогенов, гормоноподобных веществ растительного происхождения, действующих мягче чем гормоны и без их побочных действий. Фитоэстрогены  усиливают иммунитет, помогая ему активно противостоять различным инфекциям, и укрепляют женское здоровье.  Кроме этого,  фитоэстрогены улучшают метаболические процессы, повышают энергию и работоспособность, улучшают состояние кожи, волос, ногтей, сохраняют молодость.
+                    <p>Рациональное питание является краеугольным камнем здоровья, хорошего самочувствия и отличного внешнего вида. Восполнить в рационе  дефицит витаминов и минералов невозможно только за счет питания, поэтому дополнительный прием полезных веществ - источников укрепления иммунитета, повышения энергии, работоспособности становится обычной повседневной практикой для всех, кто заботится о своем здоровье, стремится повысить энергию, укрепить иммунитет и хорошо выглядеть.</p>
+                    <p>Здоровье и хорошее самочувствие женщины во многом зависят от слаженной работы иммунной и эндокринной систем. На протяжении долгого времени понятия женский иммунитет не существовало, но в настоящее время доказано, что женский иммунитет отличается от мужского и связано это с действиями женских половых гормонов – эстрогенов.</p>
+                    <p>Для поддержания гормонального баланса у женщин с целью усиления иммунитета предпочтительнее выбор фитоэстрогенов, гормоноподобных веществ растительного происхождения, действующих мягче чем гормоны и без их побочных действий. Фитоэстрогены  усиливают иммунитет, помогая ему активно противостоять различным инфекциям, и укрепляют женское здоровье.  Кроме этого,  фитоэстрогены улучшают метаболические процессы, повышают энергию и работоспособность, улучшают состояние кожи, волос, ногтей, сохраняют молодость.</p>
                 </div>
             </div>
         </div>
     </div>
+    <div class="experts-bg fadeIn wow " data-wow-delay="0.5s"></div>
     <style>
-        .experts{
-            background-image: url("./img/experts-category-bg.png");
-            background-position: center top 80px;
+        .experts-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            background-image: url("./img/category-experts-category-bg.png");
+            background-position: center top;
             background-repeat: no-repeat;
         }
         .experts:before,
@@ -257,75 +318,75 @@
         }
 
         @media screen and (max-width: 1199px){
-            .experts{
-                /*background-image: url("./img/catalog-health-bg-tablet-stars.png");*/
+            .experts-bg{
+                background-image: url("./img/catalog-health-bg-tablet-stars.png");
             }
         }
 
         @media screen and (max-width: 767px){
-            .experts{
-                /*background-image: url("./img/catalog-health-bg-mobile-girl.png");*/
+            .experts-bg{
+                background-image: url("./img/catalog-health-bg-mobile-girl.png");
             }
         }
     </style>
 </div>
-<div class="page_article question">
+<div class="section-fh page_article">
     <div class="container text-center">
-        <div class="question-title">Вопрос консультанту</div>
-        <div class="question-info">
-            Получить исчерпывающую информацию о составах, механизмах действия, показаниях,
-            противопоказаниях и способах применения биокомплексов вы можете, задав свой вопрос
-            медицинскому консультанту по телефону<br>
-            <b>горячей линии (495) 744-06-27</b> <br>
-            или заполнив он-лайн форму.
+        <div class="question">
+            <div class="question-title">Вопрос консультанту</div>
+            <div class="question-info">
+                Получить исчерпывающую информацию о составах, механизмах действия, показаниях,
+                противопоказаниях и способах применения биокомплексов вы можете, задав свой вопрос
+                медицинскому консультанту по телефону<br>
+                <b>горячей линии (495) 744-06-27</b> <br>
+                или заполнив он-лайн форму.
+            </div>
+            <a href="" class="modal-button" data-modal-name="question">задать вопрос</a>
+            <p class="notice">Обращаем Ваше внимание на то, что получить консультацию Вы <br>
+                можете по рабочим дням <br>
+                с 10:00 до 18:00 по московскому времени<br>
+                <b>Ни один вопрос не останется без внимания!</b></p>
+            <!--<a class="faq-link" href="">Часто задаваемые вопросы</a>-->
         </div>
-        <a href="" class="modal-button" data-modal-name="question">задать вопрос</a>
-        <p class="notice">Обращаем Ваше внимание на то, что получить консультацию Вы <br>
-            можете по рабочим дням <br>
-            с 10:00 до 18:00 по московскому времени<br>
-            <b>Ни один вопрос не останется без внимания!</b></p>
-        <!--<a class="faq-link" href="">Часто задаваемые вопросы</a>-->
-    </div>
-</div>
-<div class="page_article comments">
-    <div class="container text-center">
-        <div class="comment-title">Отзывы</div>
-        <div class="carousel-wrapper">
-            <div class="owl-carousel comments-slider">
-                <div class="comment-slide">
-                    <p class="comment-text">А у меня с циклом все в порядке,
-                        месячные точно по графику, но ужасно болезненные.
-                        Я даже пару раз сознание теряла, а тошнота, головные боли
-                        и ужасные боли в животе у меня были постоянно,
-                        до того как я Ледис формулу ПМС начала применять.
-                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
-                        я чувствую себя нормально...</p>
-                    <p class="comment-name">Ира, Тольятти</p>
-                </div>
-                <div class="comment-slide">
-                    <p class="comment-text">А у меня с циклом все в порядке,
-                        месячные точно по графику, но ужасно болезненные.
-                        Я даже пару раз сознание теряла, а тошнота, головные боли
-                        и ужасные боли в животе у меня были постоянно,
-                        до того как я Ледис формулу ПМС начала применять.
-                        Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
-                        я чувствую себя нормально...</p>
-                    <p class="comment-name">Ира, Тольятти</p>
+        <div class="comments">
+            <div class="comment-title">Отзывы</div>
+            <div class="carousel-wrapper">
+                <div class="owl-carousel comments-slider">
+                    <div class="comment-slide">
+                        <p class="comment-text">А у меня с циклом все в порядке,
+                            месячные точно по графику, но ужасно болезненные.
+                            Я даже пару раз сознание теряла, а тошнота, головные боли
+                            и ужасные боли в животе у меня были постоянно,
+                            до того как я Ледис формулу ПМС начала применять.
+                            Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
+                            я чувствую себя нормально...</p>
+                        <p class="comment-name">Ира, Тольятти</p>
+                    </div>
+                    <div class="comment-slide">
+                        <p class="comment-text">А у меня с циклом все в порядке,
+                            месячные точно по графику, но ужасно болезненные.
+                            Я даже пару раз сознание теряла, а тошнота, головные боли
+                            и ужасные боли в животе у меня были постоянно,
+                            до того как я Ледис формулу ПМС начала применять.
+                            Облегчение почувствовала после первого месяца приема, а вот после второго месяца — вообще красота. Теперь в «эти дни»
+                            я чувствую себя нормально...</p>
+                        <p class="comment-name">Ира, Тольятти</p>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-<div class="page_footer flower">
+
+<div class="section-fh page_footer flower">
     <div class="container">
         <div class="footer-links">
             <div class="footer-links__wrapper">
                 <div class="links-title">Женское здоровье</div>
                 <ul class="links-list">
+                    <li class="list-item"><a href="">Больше чем поливитамины™</a></li>
                     <li class="list-item"><a href="">Женщина 30 Плюс™ Усиленная Формула</a></li>
                     <li class="list-item"><a href="">Женщина 40 Плюс™</a></li>
-                    <li class="list-item"><a href="">Больше чем поливитамины™</a></li>
                     <li class="list-item"><a href="">Пренатал Оптима™</a></li>
                     <li class="list-item"><a href="">Персональная Месячная Система™</a></li>
                     <li class="list-item"><a href="">Усиленная Формула</a></li>
@@ -357,7 +418,7 @@
                 <div class="links-title">STOP стресс</div>
                 <ul class="links-list">
                     <li class="list-item"><a href="">Антистресс™ Усиленная Формула</a></li>
-                    <li class="list-item"><a href="">Энерготоник™</a></li>
+                    <li class="list-item"><a href="">Энерго-Тоник™</a></li>
                 </ul>
             </div>
         </div>

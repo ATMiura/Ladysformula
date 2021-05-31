@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -66,25 +67,47 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="product__header">
-        <div class="container">
+        <div class="product__header fadeIn wow" data-wow-delay="5s">
             <div class="product-image">
-                <img src="img/header_prod_desc.png">
+                <picture>
+                    <source srcset="img/header_prod_mobile.png" media="(max-width: 767px)">
+                    <img src="img/header_prod_desc.png">
+                </picture>
             </div>
         </div>
+
     </div>
+
+    <div class="catalog__title fadeIn wow" data-wow-delay="4s">
+        <div class="catalog__title__inner">
+            <span class="catalog-title__bold">
+                <span class="catalog-title__numbers">13</span> биокомплексов
+            </span> для красоты, здоровья и молодости
+        </div>
+    </div>
+    <div class="catalog__header">
+        <div class="container flower">
+            <div class="block-title fadeInRight wow" data-wow-delay="4.5s">специально для женщин</div>
+            <a class="button hidden-sm fadeInRight wow" data-wow-delay="4.75s" href="catalog.html">каталог</a>
+        </div>
+    </div>
+
     <div class="product-bg">
         <style>
             .header{
-                background: url("img/main-bg.jpg") no-repeat top center;
+                background: url("img/main-bg.png") no-repeat top center;
             }
             @media(max-width: 1199px){
-                .header{
+                /*.header{
                     background: url("img/main-tablet-bg.png") no-repeat top center, url("img/main--tablet-bg-flower.png") no-repeat center;
-                }
+                }*/
             }
+			@media(max-width: 1023px){
+				.header {
+					background: url(img/main-bg-1024.png) no-repeat center top;
+					}
+			}
             @media(max-width: 767px){
                 .header{
                     background: url("img/main--mobile-bg.png") no-repeat top center;
@@ -95,19 +118,10 @@
 </div>
 
 <div class="page_article main-page flower">
-    <div class="catalog__title">
-        <span class="catalog-title__bold"><span class="catalog-title__numbers">13</span> биокомплексов</span> для красоты, здоровья и молодости
-    </div>
-    <div class="catalog__header">
-        <div class="container flower">
-            <div class="block-title fadeInRight wow" data-wow-offset="300">специально для женщин</div>
-            <a class="button hidden-sm fadeIn wow" data-wow-delay="1s" data-wow-offset="300" href="catalog.html">каталог</a>
-        </div>
-    </div>
-    <div class="catalog__content backgroundIn wow" data-wow-delay="3s" data-wow-offset="300">
+    <div class="catalog__content">
         <div class="container">
             <div class="catalog-wrapper">
-                <div class="item-wrapper">
+                <div class="item-wrapper fadeInRight wow" data-wow-delay="0.5s">
                     <div class="catalog-item">
                         <div class="item-image">
                             <img src="img/girl3.jpg">
@@ -117,48 +131,47 @@
                         </div>
                     </div>
                 </div>
-            <div class="item-wrapper">
-                <div class="catalog-item">
-                    <div class="item-image">
-                        <img src="img/girl1.jpg">
+                <div class="item-wrapper fadeInRight wow" data-wow-delay="1s">
+                    <div class="catalog-item">
+                        <div class="item-image">
+                            <img src="img/girl1.jpg">
+                        </div>
+                        <div class="item-title">
+                            <a href="">Бьюти-шик</a>
+                        </div>
                     </div>
-                    <div class="item-title">
-                        <a href="">Бьюти-шик</a>
+                </div>
+                <div class="item-wrapper fadeInRight wow" data-wow-delay="1.5s">
+                    <div class="catalog-item">
+                        <div class="item-image">
+                            <img src="img/girl2.jpg">
+                        </div>
+                        <div class="item-title">
+                            <a href="">Anti-Age</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper fadeInRight wow" data-wow-delay="2s">
+                    <div class="catalog-item">
+                        <div class="item-image">
+                            <img src="img/girl4.jpg">
+                        </div>
+                        <div class="item-title">
+                            <a href="">STOP-стресс</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper fadeInRight wow" data-wow-delay="2.5s">
+                    <div class="catalog-item">
+                        <div class="item-image">
+                            <img src="img/girl5.jpg">
+                        </div>
+                        <div class="item-title">
+                            <a href="">МеNOпауза</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="item-wrapper">
-                <div class="catalog-item">
-                <div class="item-image">
-                    <img src="img/girl2.jpg">
-                </div>
-                <div class="item-title">
-                    <a href="">Anti-Age</a>
-                </div>
-            </div>
-            </div>
-
-            <div class="item-wrapper">
-                <div class="catalog-item">
-                <div class="item-image">
-                    <img src="img/girl4.jpg">
-                </div>
-                <div class="item-title">
-                    <a href="">STOP-стресс</a>
-                </div>
-            </div>
-            </div>
-            <div class="item-wrapper">
-                <div class="catalog-item">
-                <div class="item-image">
-                    <img src="img/girl5.jpg">
-                </div>
-                <div class="item-title">
-                    <a href="">МеNOпауза</a>
-                </div>
-            </div>
-            </div>
-        </div>
         </div>
     </div>
 
